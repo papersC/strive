@@ -1,0 +1,3605 @@
+{
+ "model_version": "xgb-T1-v1",
+ "interventions": [
+  {
+   "sid": 2266,
+   "kind": 1,
+   "riskBps": 9017,
+   "planHash": "f4a8d79acb017ec611ea3e52d9bb8025becdfb7358c9c9a0ed8fae69e28bf457"
+  },
+  {
+   "sid": 3861,
+   "kind": 1,
+   "riskBps": 8543,
+   "planHash": "ab78d295300efcd5a5eb57c6a28e322b418b9748d589a5960e060bbf72912ecb"
+  },
+  {
+   "sid": 971,
+   "kind": 1,
+   "riskBps": 8813,
+   "planHash": "7ab5693768b5fb041312f08eeb53e8e7e9b3aca15d45295bec1e1f0054335818"
+  },
+  {
+   "sid": 1220,
+   "kind": 1,
+   "riskBps": 7350,
+   "planHash": "30ef0ac6304fc921f909dc7fb2364a7300607143f34c420c74405c0743247358"
+  },
+  {
+   "sid": 1220,
+   "kind": 3,
+   "riskBps": 7350,
+   "planHash": "bc065ea6a31f59694b931d7d766873691c0f2a921030869c5beefcc18de5b02a"
+  },
+  {
+   "sid": 477,
+   "kind": 0,
+   "riskBps": 9973,
+   "planHash": "127ab7a49ce578d39d495ba5f5c5b4e95d1e44af98ad4efca851d355c691fe2e"
+  },
+  {
+   "sid": 477,
+   "kind": 1,
+   "riskBps": 9973,
+   "planHash": "0afe2fa996d7a2edcc671dfe0230b38669f6fe122b3c4327c4012e583767909d"
+  },
+  {
+   "sid": 748,
+   "kind": 0,
+   "riskBps": 9762,
+   "planHash": "e2dbc9de40972bb114b6ccaa72c2e1d4d8df09fd1054672a5c1c633320edb37e"
+  },
+  {
+   "sid": 748,
+   "kind": 1,
+   "riskBps": 9762,
+   "planHash": "6e29b9239c00b7ca277256ed85e704adbb4ee5a8e25f27025faec1702b1b9f28"
+  },
+  {
+   "sid": 2689,
+   "kind": 1,
+   "riskBps": 9557,
+   "planHash": "c746722b2076505dbcf66fe50b90e5ef1e4d357cec21e9da35d8e54460d79f27"
+  },
+  {
+   "sid": 2689,
+   "kind": 3,
+   "riskBps": 9557,
+   "planHash": "b898d21de0328e19cac99d26a518221cc5eee5a148db8a46722d61d37b004959"
+  },
+  {
+   "sid": 4075,
+   "kind": 0,
+   "riskBps": 9819,
+   "planHash": "e74c05ed5ddb564b82c9e45f4c0b17d440705af9eb90f5baefcf191099880a07"
+  },
+  {
+   "sid": 4075,
+   "kind": 1,
+   "riskBps": 9819,
+   "planHash": "016f3540185d9c62a1477f27bbca25c01f8181cade7b8bc79a5786dc4b4dbe58"
+  },
+  {
+   "sid": 3583,
+   "kind": 3,
+   "riskBps": 8933,
+   "planHash": "8472eb6ba0a9461b999422caa8bc08e560a427e494bd477e17cbdf954d9ec89b"
+  },
+  {
+   "sid": 3964,
+   "kind": 3,
+   "riskBps": 9458,
+   "planHash": "a9af36e659ee5d7ed90b9d059b5fc8e97b0eedca631bcb0909ab98bcf4e8f2d5"
+  },
+  {
+   "sid": 659,
+   "kind": 1,
+   "riskBps": 9366,
+   "planHash": "07f3f67da44ed4cb60f2b0eb2595c76baac46a31bd6efa38356a436117c8d1f8"
+  },
+  {
+   "sid": 3030,
+   "kind": 4,
+   "riskBps": 7778,
+   "planHash": "ebddf010813a4058fbb089f860eaa558d4825654237154520c26e8e13fabd9b8"
+  },
+  {
+   "sid": 4301,
+   "kind": 1,
+   "riskBps": 8443,
+   "planHash": "f6bb5db3060aa27e134b0ae4bfd5e719ab413bb05704f93c189f4b6f3d4a7222"
+  },
+  {
+   "sid": 4301,
+   "kind": 3,
+   "riskBps": 8443,
+   "planHash": "cb237db079d7909c85c51422520918576ea7dcd1c58e789421a869ba20cb280e"
+  },
+  {
+   "sid": 2979,
+   "kind": 3,
+   "riskBps": 7084,
+   "planHash": "d5473ae1eb6800bbfc57e4af1e2eab34d768ae1b1bb12b185b1cb23c63665193"
+  },
+  {
+   "sid": 1569,
+   "kind": 0,
+   "riskBps": 9913,
+   "planHash": "d9710c858cc967b2084ea91aa3d54a3836891077f4d7f50d60d39d920aca2c10"
+  },
+  {
+   "sid": 1569,
+   "kind": 1,
+   "riskBps": 9913,
+   "planHash": "869307173cc126b6db07b98777b593ee825e108fddc518762f359172040793a3"
+  },
+  {
+   "sid": 311,
+   "kind": 0,
+   "riskBps": 9849,
+   "planHash": "a48d3658b581df79470fd5bdfbe0ab6e84d0870a2e5be08059ce7532f8481121"
+  },
+  {
+   "sid": 311,
+   "kind": 1,
+   "riskBps": 9849,
+   "planHash": "7a27dedca675ee84de05c10d48af80e0dd96ef2bd6b0f09136a9039633105681"
+  },
+  {
+   "sid": 4299,
+   "kind": 1,
+   "riskBps": 8394,
+   "planHash": "ebb45cbcb68732f6288858ab00f679672429b6c555d42e22d2bf1c77d79b3b24"
+  },
+  {
+   "sid": 487,
+   "kind": 4,
+   "riskBps": 7915,
+   "planHash": "215d86643046b7cfad3b08f12b0a6eaff152287d69c2697a84044daed82f4f05"
+  },
+  {
+   "sid": 239,
+   "kind": 1,
+   "riskBps": 9621,
+   "planHash": "8e71be0838c4c851daeaca62161fd5815fdf8453bd55bae4266f717384c15b3c"
+  },
+  {
+   "sid": 239,
+   "kind": 3,
+   "riskBps": 9621,
+   "planHash": "4b22110d10c1aabc690c7b606de7e6fc77e2ee014aedc8721b17413e1324b586"
+  },
+  {
+   "sid": 3934,
+   "kind": 1,
+   "riskBps": 8800,
+   "planHash": "433197d4106374b656cc9d49c21a27a3c893ea2ff8d6c9fe6d86ae527a7e2d55"
+  },
+  {
+   "sid": 3223,
+   "kind": 0,
+   "riskBps": 9941,
+   "planHash": "08a2300ed212676c0811f091f48cf0018f484790509ccb2045dc3278e4ec97c5"
+  },
+  {
+   "sid": 3223,
+   "kind": 1,
+   "riskBps": 9941,
+   "planHash": "42dac9e3c93e3b05109c1805a8ddf91eafc2562465ca6e8ce37b5ae6ba45cb04"
+  },
+  {
+   "sid": 3223,
+   "kind": 3,
+   "riskBps": 9941,
+   "planHash": "dcd472ace33327145ff4613e1087747738489f9d5ca117d5d9c371ff371796a1"
+  },
+  {
+   "sid": 495,
+   "kind": 0,
+   "riskBps": 9913,
+   "planHash": "3f6b2c1bd18efffe98ae3251fd08b474412f07f7c894e5be6b4b1c484d9fef7a"
+  },
+  {
+   "sid": 495,
+   "kind": 1,
+   "riskBps": 9913,
+   "planHash": "90dcf36c243d183be03038ff258fcb5381e84654dcd273f54963bb045f9b480a"
+  },
+  {
+   "sid": 495,
+   "kind": 3,
+   "riskBps": 9913,
+   "planHash": "0a3c5f01e3f4139c7894a6b9f3e66b44f3db45557d9667ff9e9337d8ce2fe2e4"
+  },
+  {
+   "sid": 2786,
+   "kind": 1,
+   "riskBps": 8378,
+   "planHash": "37c8a98c6d7ceccbd7465cd9eea6724220aa1d75fcb1aa4ac5f018a3006f1979"
+  },
+  {
+   "sid": 35,
+   "kind": 0,
+   "riskBps": 9889,
+   "planHash": "2d8445c2399c008193776806f6651c1b5c957313e3b4f26ae9b5b697ca723158"
+  },
+  {
+   "sid": 35,
+   "kind": 1,
+   "riskBps": 9889,
+   "planHash": "df28685740735958191ac8dc78d60b23695059692ad1383cc47cae79eb11d9f8"
+  },
+  {
+   "sid": 35,
+   "kind": 3,
+   "riskBps": 9889,
+   "planHash": "0a00676f85cdf15db0c1167843ac8741ff2ebb5b0bbeae286c17dec9e2eddebf"
+  },
+  {
+   "sid": 4246,
+   "kind": 3,
+   "riskBps": 7799,
+   "planHash": "6d9949a2a1fec0c0476dd7a4da6652488e2f32d907d983771d2e24c5e602624e"
+  },
+  {
+   "sid": 2363,
+   "kind": 1,
+   "riskBps": 7696,
+   "planHash": "99b2802eef8254efa3fd33d7f8d574fa5fad680425dd6a26a4e85496237e0ebf"
+  },
+  {
+   "sid": 2325,
+   "kind": 1,
+   "riskBps": 9251,
+   "planHash": "53494e4c0d1236b1bd85dd0973ab418cce49a2e9440d95342e9a9dab66e2bc30"
+  },
+  {
+   "sid": 757,
+   "kind": 3,
+   "riskBps": 9305,
+   "planHash": "25f713d7e06a7b909a4a0f298d1836450a992bf05e04742652187739f0e3bc04"
+  },
+  {
+   "sid": 1222,
+   "kind": 0,
+   "riskBps": 9950,
+   "planHash": "15f8634f91b6942445956236175929b5b483e1613111b55180078ae3668d0be7"
+  },
+  {
+   "sid": 1222,
+   "kind": 1,
+   "riskBps": 9950,
+   "planHash": "1108946307c90e2c4587e838e7ed5c5916e62c788684e14d0e0ac56300afc3d8"
+  },
+  {
+   "sid": 1222,
+   "kind": 3,
+   "riskBps": 9950,
+   "planHash": "ff9f6f0129da5040c37dfb1dc801246cd61ea40aa6c24c02243f8be478787ba0"
+  },
+  {
+   "sid": 1548,
+   "kind": 0,
+   "riskBps": 9865,
+   "planHash": "b4059c94bafa82ffcd13b7fe1fda4427635cafbeaeb56a28726e167ac564b37d"
+  },
+  {
+   "sid": 1548,
+   "kind": 1,
+   "riskBps": 9865,
+   "planHash": "0f781a2d4c80e12f00bb9043adffbbc133898fca31726978c57869f74c22cd6e"
+  },
+  {
+   "sid": 1548,
+   "kind": 3,
+   "riskBps": 9865,
+   "planHash": "055b29bd62ed9d696f2340e8202f8e181d28cb304f3ffe6ba5b70206f19de845"
+  },
+  {
+   "sid": 2327,
+   "kind": 0,
+   "riskBps": 9941,
+   "planHash": "1c3f0afbe91039aaf438dcfeb594ca86be1bc96c8a27f63cd03abb634a690975"
+  },
+  {
+   "sid": 2327,
+   "kind": 1,
+   "riskBps": 9941,
+   "planHash": "aab28288aad242331ceea08730ca705fa2954b9b54cb28fad5d558a313ee252e"
+  },
+  {
+   "sid": 2327,
+   "kind": 3,
+   "riskBps": 9941,
+   "planHash": "3a6248d76a8b8d89c6cb08d33049a33570748558afc45b67a58f351b067da066"
+  },
+  {
+   "sid": 1541,
+   "kind": 0,
+   "riskBps": 9927,
+   "planHash": "242606aa962d1ef08b12f6bcb299650e0714ad3dee0605e9a9d6559548d8d46f"
+  },
+  {
+   "sid": 1541,
+   "kind": 1,
+   "riskBps": 9927,
+   "planHash": "d3fc50e5f371d42eb0b7d48cfec2540ec2228ae6ca39be15210c427b5e3ed5d6"
+  },
+  {
+   "sid": 3533,
+   "kind": 0,
+   "riskBps": 9992,
+   "planHash": "ab0c2c4dddc3fa11499c5af8a78562b00f89d6ca4cb5987b058c40818d3436f7"
+  },
+  {
+   "sid": 3533,
+   "kind": 1,
+   "riskBps": 9992,
+   "planHash": "0d697ef28abf1a65be6fadcacad8da565ed2f3721f3bb566c512cb48e59b544c"
+  },
+  {
+   "sid": 3533,
+   "kind": 3,
+   "riskBps": 9992,
+   "planHash": "edd00c67737c92dd28be0fe84b06c470a25def50b44b293ab6e44534588be182"
+  },
+  {
+   "sid": 1849,
+   "kind": 1,
+   "riskBps": 7787,
+   "planHash": "2ef10aee2fb5d4d070f1cbaec204fcf0c721a40ece731f8f7b7a944cdb897234"
+  },
+  {
+   "sid": 2414,
+   "kind": 4,
+   "riskBps": 7130,
+   "planHash": "aa040385c0463aaf534273c86f78e509a44619631bf24187d8b6afc1a4b84cd5"
+  },
+  {
+   "sid": 1362,
+   "kind": 0,
+   "riskBps": 9804,
+   "planHash": "6d0e78e8e8b86761994351716fc6fa3d3d48b3426a146bda0008085e5108ec46"
+  },
+  {
+   "sid": 1362,
+   "kind": 1,
+   "riskBps": 9804,
+   "planHash": "4f1aa924a8e1caa98ab2622ae45f409fa8db7adea4ea451781a7d31a5c30451e"
+  },
+  {
+   "sid": 4413,
+   "kind": 1,
+   "riskBps": 8519,
+   "planHash": "9f117e32511551047418010bc476b32a662aa9f314f770046d235b550322c474"
+  },
+  {
+   "sid": 2407,
+   "kind": 0,
+   "riskBps": 9928,
+   "planHash": "32e17b5896d39e78947c18eb2a2a938ea1b4dc7ebdc880790e5f995d7642167f"
+  },
+  {
+   "sid": 2407,
+   "kind": 1,
+   "riskBps": 9928,
+   "planHash": "568490216ccb7d01601d37c6ff43beeeb770dd2a099657d082ad99112d4085c3"
+  },
+  {
+   "sid": 2407,
+   "kind": 3,
+   "riskBps": 9928,
+   "planHash": "d74c41031ffbdf2dbe5db876ad7ec2dcdf2c01d3aa6ddef90f1032f12c11f219"
+  },
+  {
+   "sid": 840,
+   "kind": 1,
+   "riskBps": 9014,
+   "planHash": "b9ab0095f368c8ee8882a582f9a007c7af2df0a5e42494222fbc676d87010f9e"
+  },
+  {
+   "sid": 840,
+   "kind": 3,
+   "riskBps": 9014,
+   "planHash": "98cfde47184bf5de2082131d06d496251db5c0e9d1464417bd83ea9523d71fba"
+  },
+  {
+   "sid": 90,
+   "kind": 1,
+   "riskBps": 9668,
+   "planHash": "e9550f498997e98d9c10c58d38d1b89b87352d69a269cd08e3a57fb00eba8288"
+  },
+  {
+   "sid": 1544,
+   "kind": 1,
+   "riskBps": 8190,
+   "planHash": "a9e37e4d8e7633246c6db0f45ee84ef9a5bad3a62b8b1680e1717cef168fd0a3"
+  },
+  {
+   "sid": 4140,
+   "kind": 0,
+   "riskBps": 9951,
+   "planHash": "ef1010da7d12096fcf9a45d1dc13d25a16e18e57916df79c13a703e57fc91f8f"
+  },
+  {
+   "sid": 4140,
+   "kind": 1,
+   "riskBps": 9951,
+   "planHash": "96425d475a4c6869bf7127635ce003b269b8f463c19671aa6d78739b0b0542a4"
+  },
+  {
+   "sid": 4140,
+   "kind": 3,
+   "riskBps": 9951,
+   "planHash": "d73f897f502da686aa251f4b3690218d1ede1227bca841d21d4e16ae3fed4858"
+  },
+  {
+   "sid": 1859,
+   "kind": 4,
+   "riskBps": 9244,
+   "planHash": "9031fd7ee7ea52bd4d548b9b532ddf56e2a41bbdcf9f819d84216e2c3d105c4e"
+  },
+  {
+   "sid": 1572,
+   "kind": 0,
+   "riskBps": 9925,
+   "planHash": "9b55d280da3c26085499e03d5f6b18d4072462375d803fb8e604c8ed405153b5"
+  },
+  {
+   "sid": 1572,
+   "kind": 1,
+   "riskBps": 9925,
+   "planHash": "6318bd38f1af40ada472c77c21beac1ba05bb7c56bf160d318c7a4a5a75623b2"
+  },
+  {
+   "sid": 1572,
+   "kind": 3,
+   "riskBps": 9925,
+   "planHash": "a4c4e4608c1e69f6ab408dde6ab079fff372cad75fbd1e6c346a1bf284ea8653"
+  },
+  {
+   "sid": 866,
+   "kind": 0,
+   "riskBps": 9913,
+   "planHash": "f8a9286b7093a270be2aaaec633e2fd2caffd20690accffc5b9552ee820a2105"
+  },
+  {
+   "sid": 866,
+   "kind": 1,
+   "riskBps": 9913,
+   "planHash": "c075637647cecb24b7549c1d273f5c276baecd10afef053b8ab8725c6e63aba8"
+  },
+  {
+   "sid": 2651,
+   "kind": 3,
+   "riskBps": 6758,
+   "planHash": "b9628b3f5944ac07a3ccc8d2f21c789ac32a6e1d6fa6fceca6d258cc9fb2c7f7"
+  },
+  {
+   "sid": 3859,
+   "kind": 1,
+   "riskBps": 8821,
+   "planHash": "2b7b794f651b5320bea7b833e3c9616d50ea08c17ec421513b85b84ea0d3ab39"
+  },
+  {
+   "sid": 3837,
+   "kind": 3,
+   "riskBps": 8928,
+   "planHash": "795eb87c63400dea2b8ed07dd395aa35767a0c71560806edc67cebd27cf88d2f"
+  },
+  {
+   "sid": 1509,
+   "kind": 0,
+   "riskBps": 9849,
+   "planHash": "8298908c4fa4c7ac70dbbc55f85c2db28c59488790c42317eb72063232311136"
+  },
+  {
+   "sid": 1509,
+   "kind": 1,
+   "riskBps": 9849,
+   "planHash": "cfe4a3a5a126cd5294a112420363dba355e4448354e6e6cf14aba772294ba7fc"
+  },
+  {
+   "sid": 1105,
+   "kind": 1,
+   "riskBps": 6835,
+   "planHash": "c34fa1720da82871709407bce094a0d0ce77f906d14fbe44c69bc676d750a482"
+  },
+  {
+   "sid": 3485,
+   "kind": 1,
+   "riskBps": 8231,
+   "planHash": "d94cd2f70c8a17948e2533a3e16338107f2530788b003555b079173bbc5fd7c5"
+  },
+  {
+   "sid": 2267,
+   "kind": 1,
+   "riskBps": 7862,
+   "planHash": "f356adff2ffdde86897f269c97a660d9465ac499bce0121fd1ba7d48688bccd9"
+  },
+  {
+   "sid": 1687,
+   "kind": 0,
+   "riskBps": 9820,
+   "planHash": "346887196ae7724a76b8b6c06a56b770d9fbb3d921347eb4dd2a0dbfd14562e6"
+  },
+  {
+   "sid": 1687,
+   "kind": 1,
+   "riskBps": 9820,
+   "planHash": "ef68460674e52d50e876ad31d3e23e984d2b4789d6ca9bbd23e9cdbb53ff0cfc"
+  },
+  {
+   "sid": 1687,
+   "kind": 3,
+   "riskBps": 9820,
+   "planHash": "929456dee36984f3a4e9c8ea8482076d9aebdd13434b1a3ed6ff0081652b26a5"
+  },
+  {
+   "sid": 3819,
+   "kind": 1,
+   "riskBps": 9704,
+   "planHash": "3f58b9f5ab55a9f6023fbfc030462aa894c97d8dfcb627dbc5317da9acc87261"
+  },
+  {
+   "sid": 3819,
+   "kind": 3,
+   "riskBps": 9704,
+   "planHash": "7e1e757a100267f353ca5c382fae8e7e59f6dafe25c850c6e167e17873f2f292"
+  },
+  {
+   "sid": 4283,
+   "kind": 0,
+   "riskBps": 9810,
+   "planHash": "4da73a1d2815b19fb6b6a311a624d8c03e1996b12e0115d8d6a16760514c3d8b"
+  },
+  {
+   "sid": 4283,
+   "kind": 1,
+   "riskBps": 9810,
+   "planHash": "17983374751c30ccf0dbe3323d52084597a064edc279943d4f11cec30076609a"
+  },
+  {
+   "sid": 4283,
+   "kind": 3,
+   "riskBps": 9810,
+   "planHash": "7b094ae1e95a2d6089f85fbb12de00dfb5b0ef6da9ee4445628d87c05304b6fb"
+  },
+  {
+   "sid": 2879,
+   "kind": 1,
+   "riskBps": 6517,
+   "planHash": "7d19ae88881e8c29b20c0ba543acbd115bff4a17829312e36d439964ab2610b0"
+  },
+  {
+   "sid": 3490,
+   "kind": 1,
+   "riskBps": 5924,
+   "planHash": "6ab5f2d50b75b7133aa2080223b6ebffb804ec3ba46003cd5e5490492584645a"
+  },
+  {
+   "sid": 191,
+   "kind": 1,
+   "riskBps": 8036,
+   "planHash": "c9169fb3f26ad8ec0627456b31615d87bcf15d087dd72974cb5b30c8a8be8074"
+  },
+  {
+   "sid": 2180,
+   "kind": 1,
+   "riskBps": 6408,
+   "planHash": "6b1dfbbf26f9a86097f38883847b47b37ee886470cf453fe53d5bdc825b918f4"
+  },
+  {
+   "sid": 1072,
+   "kind": 1,
+   "riskBps": 6402,
+   "planHash": "d6a8862fbf9b77321ceecade85631a40904603c05ec35311436bc2c2190f0d36"
+  },
+  {
+   "sid": 2450,
+   "kind": 0,
+   "riskBps": 9727,
+   "planHash": "235c78840a5ff03dbccbf1d409d47522ff1d7ad075f163bf5faa4592129b21c8"
+  },
+  {
+   "sid": 2450,
+   "kind": 1,
+   "riskBps": 9727,
+   "planHash": "215933173d5d7ba98000a24c3187c5cc0b4c339102f8c6b294440f028e3d2ee6"
+  },
+  {
+   "sid": 2450,
+   "kind": 3,
+   "riskBps": 9727,
+   "planHash": "e94a0b70a8d013b4c0055f9a9ba3612dccc12da5913e71a36553067e121131be"
+  },
+  {
+   "sid": 1833,
+   "kind": 1,
+   "riskBps": 9125,
+   "planHash": "674baa4b396df0516efe36a902b1cf2d74a25d5becb2a02ef9fd32144f7c1dc5"
+  },
+  {
+   "sid": 1833,
+   "kind": 3,
+   "riskBps": 9125,
+   "planHash": "00eb923dc7b0c6f90f704e89dff658548af94a49899dbf1034cbb05025719919"
+  },
+  {
+   "sid": 4242,
+   "kind": 1,
+   "riskBps": 9185,
+   "planHash": "d7be42e344dd3439623f9556e7db0cd91a78fbff6efc89abd309522a1545e639"
+  },
+  {
+   "sid": 4242,
+   "kind": 3,
+   "riskBps": 9185,
+   "planHash": "cd4f8dc9e4a01a4fb9281227c9810dc758dcbe05c95b611985021899b827259e"
+  },
+  {
+   "sid": 1272,
+   "kind": 1,
+   "riskBps": 8190,
+   "planHash": "f813cba550262cf93186d0ccbc08c5050ef33b9b3eea614ec09b9f18b8084993"
+  },
+  {
+   "sid": 2119,
+   "kind": 1,
+   "riskBps": 6570,
+   "planHash": "c3a85ab2248ea48a67647ee9824d8a1cc1182dad7e4557ff2daf61651986bb9f"
+  },
+  {
+   "sid": 205,
+   "kind": 1,
+   "riskBps": 7895,
+   "planHash": "5dcbee5ba62e6495b04af2d09eab6b267a84e81719949521b4382ba1bc944d80"
+  },
+  {
+   "sid": 567,
+   "kind": 1,
+   "riskBps": 8150,
+   "planHash": "0ace0c46626938e79134f8cef740d544c21eecc430e630695706bfac01b5b447"
+  },
+  {
+   "sid": 2756,
+   "kind": 0,
+   "riskBps": 9918,
+   "planHash": "410eef35a925d46082e70527f66dd7623930a9f4d353b013f5e41f49541af7cb"
+  },
+  {
+   "sid": 2756,
+   "kind": 1,
+   "riskBps": 9918,
+   "planHash": "f6aae2f763eb4f088fe7595eb605cf1302b68d4381eb9a5b561e57e1062aba55"
+  },
+  {
+   "sid": 2756,
+   "kind": 3,
+   "riskBps": 9918,
+   "planHash": "b5f6587541bcd4b25fa563357fdd88eccdf522b78a5aad22a2c255b4ea7ba0a7"
+  },
+  {
+   "sid": 3996,
+   "kind": 1,
+   "riskBps": 8256,
+   "planHash": "9674b1efca9705280d21ad1959f28c5bbb4482fdfb03b079179860524c0a6dfe"
+  },
+  {
+   "sid": 3198,
+   "kind": 0,
+   "riskBps": 9869,
+   "planHash": "88d3bdcdd920fce3376517e518d92c850b23059e373a24fb344a7ded4471d6b9"
+  },
+  {
+   "sid": 3198,
+   "kind": 1,
+   "riskBps": 9869,
+   "planHash": "654664a085bcfa6cf588111437b67fcc0adcaaf537a8ef71039564404938aed8"
+  },
+  {
+   "sid": 1593,
+   "kind": 1,
+   "riskBps": 9563,
+   "planHash": "419c7325a97a7fa15c5130e858a807bb4f2ba78457fac1dcaa9a434f6ce8895e"
+  },
+  {
+   "sid": 1593,
+   "kind": 3,
+   "riskBps": 9563,
+   "planHash": "3ddfb3bde43b33538082c5f1853b323f033830df581ea0af9b71d2659b1a9c2f"
+  },
+  {
+   "sid": 4357,
+   "kind": 0,
+   "riskBps": 9777,
+   "planHash": "29051e577ca01218390bfadbe3e4539688a1c908b68ba05442245022547331a4"
+  },
+  {
+   "sid": 4357,
+   "kind": 1,
+   "riskBps": 9777,
+   "planHash": "0ebd7e7b49fafdf11b1f811f622e286ab39afaba63f758a6c9ee876891085c2a"
+  },
+  {
+   "sid": 4357,
+   "kind": 3,
+   "riskBps": 9777,
+   "planHash": "a3fb3ae49f57d3feba755dbcff7abed20c0f613455ed4b62de12815d9eae7a03"
+  },
+  {
+   "sid": 3463,
+   "kind": 1,
+   "riskBps": 8298,
+   "planHash": "804e89bf1786129736e2349f58fa14407fddedba20f092d25917a8178783f409"
+  },
+  {
+   "sid": 1881,
+   "kind": 1,
+   "riskBps": 7240,
+   "planHash": "92375cfe93d4acdd2d786f64b9a4714e105dfff1fc990af4572a1afd1c654477"
+  },
+  {
+   "sid": 1539,
+   "kind": 0,
+   "riskBps": 9937,
+   "planHash": "169717fc7b01faec38acf1ac98bb44533d82885143237ba41187fdbb537cd921"
+  },
+  {
+   "sid": 1539,
+   "kind": 1,
+   "riskBps": 9937,
+   "planHash": "450c82ff9ad1a98eef3946a977d5b24720cd4f35cebe7da96a719b676fb83adb"
+  },
+  {
+   "sid": 1539,
+   "kind": 3,
+   "riskBps": 9937,
+   "planHash": "d9bd4cd0569733add2b012bdf1baea5720a79de3b1afe2b5f674a25290221fcb"
+  },
+  {
+   "sid": 3713,
+   "kind": 0,
+   "riskBps": 9758,
+   "planHash": "3b13c6af71a5e07c593f8ad0fea92fe7a59355380b3391adae1db01f9e10315c"
+  },
+  {
+   "sid": 3713,
+   "kind": 1,
+   "riskBps": 9758,
+   "planHash": "850dfd2dfa1c898f5d63df2d03811fdb84dd9db1ce64338a6f303dbf965024ab"
+  },
+  {
+   "sid": 2094,
+   "kind": 3,
+   "riskBps": 7906,
+   "planHash": "1b0667863f1b323598dec36d74242f3e50a4e3f4629553dfe2d5c525bc7c0ca5"
+  },
+  {
+   "sid": 1204,
+   "kind": 0,
+   "riskBps": 9909,
+   "planHash": "b114fc2f4f7f8607a7884a92b71e509b77155ef5ee740bf09d3fd095edb7f22e"
+  },
+  {
+   "sid": 1204,
+   "kind": 1,
+   "riskBps": 9909,
+   "planHash": "885f794556cc8d036f3c6d0fbe38804873ce2ef57957751adf19d2b4d120a909"
+  },
+  {
+   "sid": 1204,
+   "kind": 3,
+   "riskBps": 9909,
+   "planHash": "7bce7a9479ed8945d3c37b40ea311105b23e782098cd03fecc0f81c8ba5f2a99"
+  },
+  {
+   "sid": 967,
+   "kind": 1,
+   "riskBps": 9632,
+   "planHash": "04ccef4b9950df03f7e27af337ed83fec0d7b2a1b298ef6f8724cd778d488639"
+  },
+  {
+   "sid": 842,
+   "kind": 0,
+   "riskBps": 9926,
+   "planHash": "047821c39e947c33cbdaca3566cbf5aa6c3c09049b0bc9ff845c818751c741cb"
+  },
+  {
+   "sid": 842,
+   "kind": 1,
+   "riskBps": 9926,
+   "planHash": "58af071254dcaf145b9a62fc05c7400abb20b8453d37675b09d52956c7e8f689"
+  },
+  {
+   "sid": 842,
+   "kind": 3,
+   "riskBps": 9926,
+   "planHash": "cd129e506416d00d04b931be8674d87e3fd8d8d89cddf8843897e59b42b42915"
+  },
+  {
+   "sid": 3582,
+   "kind": 1,
+   "riskBps": 9708,
+   "planHash": "2354055f7a7433997d3e4331e8ab7890097aec1c6787a5e3fac44bd2b7268d6b"
+  },
+  {
+   "sid": 1510,
+   "kind": 0,
+   "riskBps": 9899,
+   "planHash": "6c6b9f518f588f9ce690b34bc27db4d7d08087d3f3426ddacde8ac5a7fae5b8a"
+  },
+  {
+   "sid": 1510,
+   "kind": 1,
+   "riskBps": 9899,
+   "planHash": "108e82693589c3ae5d34fadfcced9e4b13dbeee4c6486b36f23d5f1395d1bf33"
+  },
+  {
+   "sid": 1510,
+   "kind": 3,
+   "riskBps": 9899,
+   "planHash": "1560da36dbfba9ba63777f3e9dce19d028e3cd70249da457dff80af06eb3a06b"
+  },
+  {
+   "sid": 2021,
+   "kind": 0,
+   "riskBps": 9985,
+   "planHash": "296b2e560693a0f7018101ff92c8acd17d415f9942e67f6a8620868d28eefe4e"
+  },
+  {
+   "sid": 2021,
+   "kind": 1,
+   "riskBps": 9985,
+   "planHash": "66c125d03dad09e36770861b9614a2e41079de92b8c80b6a05c3ce2bded8e762"
+  },
+  {
+   "sid": 2021,
+   "kind": 3,
+   "riskBps": 9985,
+   "planHash": "98831607084f9c26caafa250fc7f6ff87cdd69bc9f469683c6166a8cba41ac2d"
+  },
+  {
+   "sid": 1766,
+   "kind": 0,
+   "riskBps": 9864,
+   "planHash": "bbbe7fcdbaabec09e0acadc0df0c768e80f8a0fd2914c11a4d9c1e17e95384f8"
+  },
+  {
+   "sid": 1766,
+   "kind": 1,
+   "riskBps": 9864,
+   "planHash": "4ac5c89a2a67889aaa1d8aa483c061b9a0739e170a81ca50c4eebb19cd351b6c"
+  },
+  {
+   "sid": 1766,
+   "kind": 3,
+   "riskBps": 9864,
+   "planHash": "4c32bb915d85ec22288bcce079eb9037d140704e9f3da1a6ed660588c6cfd176"
+  },
+  {
+   "sid": 1629,
+   "kind": 1,
+   "riskBps": 9630,
+   "planHash": "f223be684525f9186f15b713841f9937a23a44b7c576a5debe6a0d79123a3ed2"
+  },
+  {
+   "sid": 1629,
+   "kind": 3,
+   "riskBps": 9630,
+   "planHash": "5d2c0bd1e9e2b3d192227e068c78a6941e29c0ed38fefd3fcc0b5ba1d1ffa1a4"
+  },
+  {
+   "sid": 2227,
+   "kind": 1,
+   "riskBps": 9245,
+   "planHash": "5a5f56c4809b41daa607028f8552d3baf710427c5f10a5f4753bc3cf450604a8"
+  },
+  {
+   "sid": 2227,
+   "kind": 3,
+   "riskBps": 9245,
+   "planHash": "89f34f71e2bfa2023c2ee3cfbbaa563cfe12c7f0fe77d31dc69624849be1d3be"
+  },
+  {
+   "sid": 2549,
+   "kind": 1,
+   "riskBps": 9705,
+   "planHash": "619b235c9e6ba823b1bef15a37322c7551dab16b9a8284daa3f23a5fceaad706"
+  },
+  {
+   "sid": 2549,
+   "kind": 3,
+   "riskBps": 9705,
+   "planHash": "c4d400e935897724293a15b11f4af735ff132f3d322665b63b10c75a3a3cad71"
+  },
+  {
+   "sid": 2274,
+   "kind": 1,
+   "riskBps": 7705,
+   "planHash": "811fed0380faa6118c3c7ef9f996bb5337e7cccaa324c1dfd05c8a02ecc3123e"
+  },
+  {
+   "sid": 716,
+   "kind": 0,
+   "riskBps": 9967,
+   "planHash": "1163b805cd4025c0d6b7a231a95c6b0b1714679ada308d65737259c8022dc9b5"
+  },
+  {
+   "sid": 716,
+   "kind": 1,
+   "riskBps": 9967,
+   "planHash": "1fda3c530b19d8b6563ffd2e7fa37b6336bcc72d67c5ea514c302eae0c6f21f0"
+  },
+  {
+   "sid": 2523,
+   "kind": 0,
+   "riskBps": 9846,
+   "planHash": "4c82ed701655ae5793be31bc66f1b8d0f83a371d9e5c5d76bbbc176bf852d2e1"
+  },
+  {
+   "sid": 2523,
+   "kind": 1,
+   "riskBps": 9846,
+   "planHash": "92df6a8ecb933ece294763535b14e580535164b20b549a2e2bfc41d2f1d9dc82"
+  },
+  {
+   "sid": 360,
+   "kind": 4,
+   "riskBps": 6431,
+   "planHash": "469c3476e9b056b0f976d5747508e3d163eb36c6598846e2eb7302618a2cb3c3"
+  },
+  {
+   "sid": 1356,
+   "kind": 1,
+   "riskBps": 8700,
+   "planHash": "4103e7685d7f3496d138684aceb54d4108b2cd762e2d80b46bc216772d6a1e5b"
+  },
+  {
+   "sid": 1856,
+   "kind": 3,
+   "riskBps": 8570,
+   "planHash": "f566d57c0ea7e2eff5301750d934a30bc5b05693ddb457282583aeec69687bd8"
+  },
+  {
+   "sid": 3055,
+   "kind": 1,
+   "riskBps": 7518,
+   "planHash": "e20f7493ce399b820ea789eb994be607e7a266dfe48de2e697ba953e0b786767"
+  },
+  {
+   "sid": 3055,
+   "kind": 3,
+   "riskBps": 7518,
+   "planHash": "53f2e8086b183a6e236a1a51e6d54749ced160f58f3668812aa73338f5924fe1"
+  },
+  {
+   "sid": 1799,
+   "kind": 0,
+   "riskBps": 9817,
+   "planHash": "bf5670ac8ecb603fe4f848da52baf4671aa0bebabc664a7568db70dedcb3c38d"
+  },
+  {
+   "sid": 1799,
+   "kind": 1,
+   "riskBps": 9817,
+   "planHash": "d9a1c6b0b7e01185c10cdee72202ac22a6c5a87c1c3db9380755b3abb648357c"
+  },
+  {
+   "sid": 1799,
+   "kind": 3,
+   "riskBps": 9817,
+   "planHash": "6422c094d3bff693def20f120ff7978cc63154d8fcd8655111774757387a7426"
+  },
+  {
+   "sid": 2330,
+   "kind": 1,
+   "riskBps": 9449,
+   "planHash": "35657c04072aeded401fa52b951483f78ef1cfa13043f345a01d6eb80bb387b2"
+  },
+  {
+   "sid": 3340,
+   "kind": 0,
+   "riskBps": 9943,
+   "planHash": "7cf798d1700dd6a3b503349a11a1434595677e091f423e124ce34cf2ef5f7ee2"
+  },
+  {
+   "sid": 3340,
+   "kind": 1,
+   "riskBps": 9943,
+   "planHash": "61d2746dfa45b1e41e1473f7d4efaa591b75e6c3ecb9f75c39933a9f04c5c081"
+  },
+  {
+   "sid": 3340,
+   "kind": 3,
+   "riskBps": 9943,
+   "planHash": "4649bdf35e277892493c93521901910e67ad51947cba758a4913a566ae97b996"
+  },
+  {
+   "sid": 4220,
+   "kind": 1,
+   "riskBps": 8312,
+   "planHash": "869ab81804a343cc2e98901758c469e0626799d90bc160ab5d89f9ba59354446"
+  },
+  {
+   "sid": 972,
+   "kind": 0,
+   "riskBps": 9869,
+   "planHash": "4d609c66a536a142c68b7e4b13160411f9415b7838a78d4423e161a98119823d"
+  },
+  {
+   "sid": 972,
+   "kind": 1,
+   "riskBps": 9869,
+   "planHash": "f60b345ca0966ef6067a5ce1ac28381ef4d35385ea246be85c068d0bb30e08c0"
+  },
+  {
+   "sid": 972,
+   "kind": 3,
+   "riskBps": 9869,
+   "planHash": "bafe48e6bc31c63e4b7ae302c856ed30529bac5a6e6aeefe7c62d03559315ecd"
+  },
+  {
+   "sid": 1747,
+   "kind": 0,
+   "riskBps": 9926,
+   "planHash": "d242e1aaee509f194ebfa72f7ba8fa5e913ed25423de9c9b6a1e47378d26fe49"
+  },
+  {
+   "sid": 1747,
+   "kind": 1,
+   "riskBps": 9926,
+   "planHash": "89a5bfbf2b7a38cb2b4f9e651bc17c18029eb3ff688a6493a9fe4b29b01a056f"
+  },
+  {
+   "sid": 1747,
+   "kind": 3,
+   "riskBps": 9926,
+   "planHash": "5811119fb20bbff569c094deb194b475fe02b549cc4b5513bdd8d5191afd99e7"
+  },
+  {
+   "sid": 3590,
+   "kind": 1,
+   "riskBps": 8233,
+   "planHash": "11c4dfc6d2de5c351f2a3fe8ffb1152f7851ffdf7719c6454613f4a007b49886"
+  },
+  {
+   "sid": 1262,
+   "kind": 1,
+   "riskBps": 9693,
+   "planHash": "b0afd045f655fa41e4fec606665d1e22a3aba3e60325a903aca64f8ec6987bad"
+  },
+  {
+   "sid": 1493,
+   "kind": 1,
+   "riskBps": 6922,
+   "planHash": "e870960dac7f076346f35655a0c70a8e2f6af0114e7b204e2924c6bc0434a64a"
+  },
+  {
+   "sid": 2789,
+   "kind": 1,
+   "riskBps": 9154,
+   "planHash": "fee0ac11a03ddd276d0a715d2a90e7103a79399668d0a4284ee4c104e6f3f4da"
+  },
+  {
+   "sid": 2789,
+   "kind": 3,
+   "riskBps": 9154,
+   "planHash": "1d95ead0a3dd3f520a7463433e911fded7d9cd9c1f52a691d83b27fe3ab9ac2e"
+  },
+  {
+   "sid": 3526,
+   "kind": 0,
+   "riskBps": 9839,
+   "planHash": "81bfd6865f83ba07c5ecabb0772c888d14c831e572d6d517a6b702e4977cd688"
+  },
+  {
+   "sid": 3526,
+   "kind": 1,
+   "riskBps": 9839,
+   "planHash": "3532f30679f4632aa084520561a3698448320ae7c5a5837a197b01ddf4c6ce8a"
+  },
+  {
+   "sid": 3526,
+   "kind": 3,
+   "riskBps": 9839,
+   "planHash": "8df4caebe4fc88089d69ddd3cf0f1e210f55123946e34230c2a213a113010b6f"
+  },
+  {
+   "sid": 1823,
+   "kind": 1,
+   "riskBps": 9452,
+   "planHash": "1ab4ff36843f5c37e098ae7ce858f9ed7eec8bc1703a1a0564288fd9a4214507"
+  },
+  {
+   "sid": 2268,
+   "kind": 1,
+   "riskBps": 6183,
+   "planHash": "08c2bc902ed27df77742c444fb239e8f409b8a3cc1cc275cb2cdc26e7ca6a370"
+  },
+  {
+   "sid": 4356,
+   "kind": 1,
+   "riskBps": 7827,
+   "planHash": "91d3315039e0fb98914626ae33fc7fc11e85a230afc15d85ed06b5ae1f70bba8"
+  },
+  {
+   "sid": 4146,
+   "kind": 1,
+   "riskBps": 7323,
+   "planHash": "0b4737d15dfbe32f491b04db4e01dc824da0b855b299a600c1e6ff0ceb759662"
+  },
+  {
+   "sid": 1529,
+   "kind": 3,
+   "riskBps": 7089,
+   "planHash": "d0064f3e29ede10b128edb09363921fc15caeacdf0351f8011ba34a1ca2f8dce"
+  },
+  {
+   "sid": 906,
+   "kind": 1,
+   "riskBps": 9309,
+   "planHash": "faf3240a584f3d8536e817898da2102138e27dc202e19a2f6d20118a191625dd"
+  },
+  {
+   "sid": 689,
+   "kind": 0,
+   "riskBps": 9937,
+   "planHash": "a3736072ec89d95b79c7089569b9c697af8a45513c865ec1a87dbdbecd25aab9"
+  },
+  {
+   "sid": 689,
+   "kind": 1,
+   "riskBps": 9937,
+   "planHash": "0cd9fcbb1526f80fc5d8cfae2a200ce2204e80af509ffb33fdee8e24abd9db0f"
+  },
+  {
+   "sid": 689,
+   "kind": 3,
+   "riskBps": 9937,
+   "planHash": "81e935a7898f3eb87aec1a97fc65779da18e60056f4f5330ff124368ad27af31"
+  },
+  {
+   "sid": 3274,
+   "kind": 1,
+   "riskBps": 9339,
+   "planHash": "e7046c024e279fbeddfd5f599f904abea2cd907be85c0e0c919194d36da08f35"
+  },
+  {
+   "sid": 1127,
+   "kind": 3,
+   "riskBps": 9082,
+   "planHash": "670773c4f443d641791c162a136352476aa8c2ec3d4cfa537e09f3ea35813b25"
+  },
+  {
+   "sid": 1463,
+   "kind": 1,
+   "riskBps": 7907,
+   "planHash": "f405e49e53e60857a7398c0578d3872ece9b06e21603b89c0cc5990a715d2bd1"
+  },
+  {
+   "sid": 4235,
+   "kind": 1,
+   "riskBps": 8119,
+   "planHash": "dfbf16649903d9305726a132fe0e0c17e8b5e543319a14347f4aaf4f06d2093e"
+  },
+  {
+   "sid": 2326,
+   "kind": 1,
+   "riskBps": 7636,
+   "planHash": "5a8a1297bd47a59e251d698bb1f8187ebc4c1758f21fcf4ce471f1c1cfc2b4e5"
+  },
+  {
+   "sid": 4089,
+   "kind": 0,
+   "riskBps": 9919,
+   "planHash": "5905fb0c2555a6b1df7118bd831cb31d5b647b3616410e3bb9aa8b8952860546"
+  },
+  {
+   "sid": 4089,
+   "kind": 1,
+   "riskBps": 9919,
+   "planHash": "b1470eea1f4c811c82df3429de19bb6b5d2bc0eb0256cc75da3e60645c5dc0a9"
+  },
+  {
+   "sid": 4089,
+   "kind": 3,
+   "riskBps": 9919,
+   "planHash": "58cef6f225563f7275b6762d4b0efa15a128c9e53ceb7d64ed524326dda2b31e"
+  },
+  {
+   "sid": 1273,
+   "kind": 1,
+   "riskBps": 9648,
+   "planHash": "3b9e8172dbf846a5ddfaffa7a6aca5dec7f004c5e9a9402f5cba769eb33d49c8"
+  },
+  {
+   "sid": 1712,
+   "kind": 1,
+   "riskBps": 9498,
+   "planHash": "0740a53c37ace5e33064af5321c04a7c3afaf61ef34b67b382431550257ebfd6"
+  },
+  {
+   "sid": 1712,
+   "kind": 3,
+   "riskBps": 9498,
+   "planHash": "9a49b93fced3f2ed1f8a840cfbdcf0b7a198aca808eb0af0cbd679f447e9ed58"
+  },
+  {
+   "sid": 810,
+   "kind": 0,
+   "riskBps": 9903,
+   "planHash": "11d9930d73fccdbf4ea8a079f265cbfb632ef24d5824d61bb6b7c70419d4e74b"
+  },
+  {
+   "sid": 810,
+   "kind": 1,
+   "riskBps": 9903,
+   "planHash": "11685d55827a59929f0302f2ee087bd4547f8f36cfd8478851643181dd370da3"
+  },
+  {
+   "sid": 810,
+   "kind": 3,
+   "riskBps": 9903,
+   "planHash": "aee7c50ccea2dc18df01988e3f7b054b033c163d34ab4c44b689374737257c4d"
+  },
+  {
+   "sid": 4276,
+   "kind": 1,
+   "riskBps": 9324,
+   "planHash": "e104fb14ccdcdebaa303c3e7fa43267269ae4d1d001c5b6d2e96ea89c7ec14c9"
+  },
+  {
+   "sid": 4276,
+   "kind": 3,
+   "riskBps": 9324,
+   "planHash": "d7dea3ed6c40ac23370d27977d1202e0bbb8b29170a0b2ee30e0385600c6a263"
+  },
+  {
+   "sid": 417,
+   "kind": 4,
+   "riskBps": 8465,
+   "planHash": "fca63318df382e380b2258a104e8e72b1a15a660e6de70c6a0c54793e8876e65"
+  },
+  {
+   "sid": 678,
+   "kind": 1,
+   "riskBps": 9490,
+   "planHash": "b5e8337b994b0d293d540cb3b42d2b0e8bde0b56d71e9a41f73d71d84f7d10bc"
+  },
+  {
+   "sid": 678,
+   "kind": 3,
+   "riskBps": 9490,
+   "planHash": "a07c4e78ff11da9bc40d5ac3ccf0150a07244629f336191898af25e47dd44a70"
+  },
+  {
+   "sid": 4208,
+   "kind": 1,
+   "riskBps": 6601,
+   "planHash": "4fcde45af6969bebb958f84b00d56f48c637048f05924e270a0ebc8bca7a6c60"
+  },
+  {
+   "sid": 4208,
+   "kind": 3,
+   "riskBps": 6601,
+   "planHash": "09a59855a167bb274142ac78b5ec6b3a64e79cb0fcacb77a0dff4bafc80a0490"
+  },
+  {
+   "sid": 3383,
+   "kind": 1,
+   "riskBps": 9523,
+   "planHash": "bf29a867970c429fd10e79bf44c55d283763fcd2d61747c38acd94e5994ec98e"
+  },
+  {
+   "sid": 2059,
+   "kind": 1,
+   "riskBps": 8856,
+   "planHash": "91bf2f13404eafb5c2445654d28fa977e76dd141a54ae26d336357973db61df8"
+  },
+  {
+   "sid": 2059,
+   "kind": 3,
+   "riskBps": 8856,
+   "planHash": "23ef7301dd540c3e03a16b7c34145a9f03c3c102d3393a86459bc2ff623392a2"
+  },
+  {
+   "sid": 2594,
+   "kind": 1,
+   "riskBps": 8966,
+   "planHash": "9523105ec9a916142eb6522a9a3d82dae643e1af7c1049da57ca5aa851067878"
+  },
+  {
+   "sid": 1282,
+   "kind": 0,
+   "riskBps": 9749,
+   "planHash": "eea0a95e013b820da8e29bbb7af7425f5815852d909438d5ed6f4bef824557af"
+  },
+  {
+   "sid": 1282,
+   "kind": 1,
+   "riskBps": 9749,
+   "planHash": "539f27081f19e13e300db83aba199dbe818ecde7dd75d9ecaef2606899a6e657"
+  },
+  {
+   "sid": 1282,
+   "kind": 3,
+   "riskBps": 9749,
+   "planHash": "86b33ecbfa4ef5495dae0897f988eeb991f9b7d6139e9b70312f658adaa829a9"
+  },
+  {
+   "sid": 939,
+   "kind": 3,
+   "riskBps": 8844,
+   "planHash": "cae6b8a3e5b98fb649ec9d5d7b93485648149ba33849f66c28ccbd9d2ff01519"
+  },
+  {
+   "sid": 89,
+   "kind": 1,
+   "riskBps": 8865,
+   "planHash": "2a067cadc090da7039502a329e0e7b720ed2c2b11e7ddf5182499a1cd307c783"
+  },
+  {
+   "sid": 89,
+   "kind": 3,
+   "riskBps": 8865,
+   "planHash": "0eaf098c9cb8ab0dfef877c1a81b5f6a1efa5d5298f29faf43fd875bbdc2110c"
+  },
+  {
+   "sid": 2440,
+   "kind": 0,
+   "riskBps": 9776,
+   "planHash": "96adfc5cc0a367f534e9ed48cf04ca8a72c7bbe210bf568badac5b62be9d729b"
+  },
+  {
+   "sid": 2440,
+   "kind": 1,
+   "riskBps": 9776,
+   "planHash": "51766b91f039471397ec47a240a92946fdfd25ed47b379644937e03bd2808e08"
+  },
+  {
+   "sid": 2440,
+   "kind": 3,
+   "riskBps": 9776,
+   "planHash": "1e08768079a4a5b9ba7033b06a9a9b5810023dd59fb91a0325693e3e3c075c80"
+  },
+  {
+   "sid": 3074,
+   "kind": 3,
+   "riskBps": 9400,
+   "planHash": "9ebb0bbb909e8f2d0f4b0bff6dd94f0113b6af0fa04945ba52ffda04154c8e7f"
+  },
+  {
+   "sid": 3262,
+   "kind": 0,
+   "riskBps": 9872,
+   "planHash": "23944117acf4d1499d576c6fd043ab1cd61977ae8555d30791af33981d8ae8e7"
+  },
+  {
+   "sid": 3262,
+   "kind": 1,
+   "riskBps": 9872,
+   "planHash": "f05e4bc6ccef399c65b2d81bc9496e850abf89b577830bb74952719976b4fdc3"
+  },
+  {
+   "sid": 3262,
+   "kind": 3,
+   "riskBps": 9872,
+   "planHash": "b7b7451b94d54d13b8431b6ce672a30bb83bc7721c26dc3bc0f5fde7c3094a53"
+  },
+  {
+   "sid": 496,
+   "kind": 0,
+   "riskBps": 9774,
+   "planHash": "8bc7c54576aae8db1685e098e40e2ae49f57b57b3e54e750278b273ebdb33363"
+  },
+  {
+   "sid": 496,
+   "kind": 1,
+   "riskBps": 9774,
+   "planHash": "86d211f72f2a6db0ae0b6187bec340be91323fba173c0dd44891fd6beab4e7d2"
+  },
+  {
+   "sid": 2470,
+   "kind": 4,
+   "riskBps": 7127,
+   "planHash": "019dfb5599dc84055038ab406d469c24e41dfdda06e5eed6c09728c22efdf015"
+  },
+  {
+   "sid": 2052,
+   "kind": 1,
+   "riskBps": 6647,
+   "planHash": "21ef3ebe58650e74905d55440ecd85608e33d8c962ae2cca0b40ccab91d23ade"
+  },
+  {
+   "sid": 3744,
+   "kind": 1,
+   "riskBps": 9618,
+   "planHash": "b2d7ddea586267c3cae255d7ffcceba5a9e718f6eb12e260144c5bbef0d1a36f"
+  },
+  {
+   "sid": 3324,
+   "kind": 1,
+   "riskBps": 9106,
+   "planHash": "6af5aff781077559e529d7bc2a890e4c4bb6879056a3088460df4bdf950d6ec8"
+  },
+  {
+   "sid": 2465,
+   "kind": 3,
+   "riskBps": 9577,
+   "planHash": "c8a4f08acdef10f6c797e8f7d4e1b299b81dfba95a0271277121d01da0a06b73"
+  },
+  {
+   "sid": 1699,
+   "kind": 1,
+   "riskBps": 9619,
+   "planHash": "b1f035aa4a842ec3e4105c38ee2023111053dd39b2955094f351eacb4a7d13a8"
+  },
+  {
+   "sid": 2486,
+   "kind": 0,
+   "riskBps": 9940,
+   "planHash": "78b9a4558d764d79d8a44da0b5067893a6acfb033b9f452a30afbb29a6b7c820"
+  },
+  {
+   "sid": 2486,
+   "kind": 1,
+   "riskBps": 9940,
+   "planHash": "0ba81205487149dfa156ac48a80bdbb1eb56b2bae44eddc4613b0d9ec03437be"
+  },
+  {
+   "sid": 2244,
+   "kind": 0,
+   "riskBps": 9810,
+   "planHash": "832b7b7bcd0708155cc809c9219960650e457ace162e49d6990dad4b68888db5"
+  },
+  {
+   "sid": 2244,
+   "kind": 1,
+   "riskBps": 9810,
+   "planHash": "ff5f6077931a1fbe34353421c2851f1367b313873be8563d182176a0bf7ef5a7"
+  },
+  {
+   "sid": 2748,
+   "kind": 0,
+   "riskBps": 9976,
+   "planHash": "86569674f9e1213a854eb3adf077408d29292cab395719b9b51af1c9b3ebb399"
+  },
+  {
+   "sid": 2748,
+   "kind": 1,
+   "riskBps": 9976,
+   "planHash": "393aca7e3c9b1386372b568c138d01acba7cc1adcab5a75dadeabb20ec42b984"
+  },
+  {
+   "sid": 2748,
+   "kind": 3,
+   "riskBps": 9976,
+   "planHash": "5329e42325697a8383de6716297f9afeb7d2156e6781cc98679363b5266c5d13"
+  },
+  {
+   "sid": 1299,
+   "kind": 1,
+   "riskBps": 7442,
+   "planHash": "6af41e8a2527817662c2bc9e4d1b0956e371ee50b338a820be8499486d240d76"
+  },
+  {
+   "sid": 2448,
+   "kind": 0,
+   "riskBps": 9905,
+   "planHash": "7b0b98d46977d5f933f47c4d8e72dabb348ac31d77b307658236b2f9d78e33ae"
+  },
+  {
+   "sid": 2448,
+   "kind": 1,
+   "riskBps": 9905,
+   "planHash": "37937906f1f2c7e1426ca2febc6206fa4b11efe71517ff13eaeb993baee2c75f"
+  },
+  {
+   "sid": 2448,
+   "kind": 3,
+   "riskBps": 9905,
+   "planHash": "8218a1066bb3432dce442fa557f90b9c7a5133b2ad5b00f484fc153676ace9f6"
+  },
+  {
+   "sid": 4326,
+   "kind": 1,
+   "riskBps": 9713,
+   "planHash": "1b2c301105625e31c2f35b184d056b24bbf2d41f9788b3efeb2b755242289fbd"
+  },
+  {
+   "sid": 4326,
+   "kind": 3,
+   "riskBps": 9713,
+   "planHash": "824bf8489fe0896a48c1380478ab2e961cd70eba3cc692777de338132806de40"
+  },
+  {
+   "sid": 807,
+   "kind": 3,
+   "riskBps": 6337,
+   "planHash": "f07f682b63e6f42c1b177d7203245a9b4b585188c879b0f148f753a4c866158d"
+  },
+  {
+   "sid": 711,
+   "kind": 0,
+   "riskBps": 9930,
+   "planHash": "3e3f072ae84b184d74e6192c5147b5796471071dfa97e93acfda7ffddf9be158"
+  },
+  {
+   "sid": 711,
+   "kind": 1,
+   "riskBps": 9930,
+   "planHash": "b5a472862b5910fca724ec900f3b616ccf1f77e19afdd7679580855d15c1f439"
+  },
+  {
+   "sid": 711,
+   "kind": 3,
+   "riskBps": 9930,
+   "planHash": "62183431998d6e08cb53cc0d6527d022a88b56d433ee72aa6350426bac19d7bb"
+  },
+  {
+   "sid": 3097,
+   "kind": 1,
+   "riskBps": 6067,
+   "planHash": "6c106ae1fb68ca3c95bef864fe510ce333e17be5ecabce82720ea6fb560cbb28"
+  },
+  {
+   "sid": 2962,
+   "kind": 1,
+   "riskBps": 7810,
+   "planHash": "0b38b3a62dca497e9d25a5415b554b83949fd177f8a9aa29f21fe5879f6c6946"
+  },
+  {
+   "sid": 2106,
+   "kind": 1,
+   "riskBps": 6915,
+   "planHash": "2a2b5b2cfbfe483a69c88175640a2b06b3afd3efa143806d9aade3e6835762e8"
+  },
+  {
+   "sid": 4311,
+   "kind": 1,
+   "riskBps": 7088,
+   "planHash": "73549f5264f7c3a4ecaa50e75e587dd10cc154374d1d0d7040d4e48d8e645ac4"
+  },
+  {
+   "sid": 1113,
+   "kind": 1,
+   "riskBps": 7106,
+   "planHash": "272e344c8b9002db9fde124ec9b048042eb5b796c62bcc3b1ee9a6adf0563405"
+  },
+  {
+   "sid": 808,
+   "kind": 1,
+   "riskBps": 9103,
+   "planHash": "487759df2a95f861d5707d5ece61b1e2fbf82ce496416374598707031b86fe2a"
+  },
+  {
+   "sid": 1420,
+   "kind": 4,
+   "riskBps": 7057,
+   "planHash": "ccbfdffdeede92e5bd48adf53c9aefe74ca242bc7368c922fb2cad247880bfcc"
+  },
+  {
+   "sid": 513,
+   "kind": 0,
+   "riskBps": 9949,
+   "planHash": "717620721ce7a8e0e3582037505d2dd1bfc28ea2b4a25a8ac7997f55d67d210c"
+  },
+  {
+   "sid": 513,
+   "kind": 1,
+   "riskBps": 9949,
+   "planHash": "79c469c10fd038717f7137769c836210f6c159d76a3ae43cac2eae6e8d6587f1"
+  },
+  {
+   "sid": 513,
+   "kind": 3,
+   "riskBps": 9949,
+   "planHash": "7fc06f62ecb4d3477c75f9080ebe39c2cee2e6ac3f1b46a8d59052dfcf37caf6"
+  },
+  {
+   "sid": 1950,
+   "kind": 0,
+   "riskBps": 9856,
+   "planHash": "fc4da95a4517022386e0308d3e3777bbea7819a2377bcf159ca81006b5ee6a45"
+  },
+  {
+   "sid": 1950,
+   "kind": 1,
+   "riskBps": 9856,
+   "planHash": "d7d0f68f4b6af0e4d64331158cefe6c3500df183f29effb9d124a09502e1b32a"
+  },
+  {
+   "sid": 2085,
+   "kind": 0,
+   "riskBps": 9889,
+   "planHash": "0532c63caefe01bad4a635ac5ac22fe7821f0b681f6b8392a2737a5583d5cf29"
+  },
+  {
+   "sid": 2085,
+   "kind": 1,
+   "riskBps": 9889,
+   "planHash": "db09b9e6737a3160e27812d159fcea80312660864a5ddfcffcfe68e6ce4b5be3"
+  },
+  {
+   "sid": 2085,
+   "kind": 3,
+   "riskBps": 9889,
+   "planHash": "eabe1004f33451e10df13fcb0c1c2d2e001679c4cca9297ebf7a4ca4d02fd423"
+  },
+  {
+   "sid": 1536,
+   "kind": 0,
+   "riskBps": 9723,
+   "planHash": "013984222921e630ed42ec9cc4db32a9f0acb4c244908875694d32ab6d3d218c"
+  },
+  {
+   "sid": 1536,
+   "kind": 1,
+   "riskBps": 9723,
+   "planHash": "274d987557e0eb113962232fc9067fe5ec2fd2ea18838a0a05b15ac1be7e6556"
+  },
+  {
+   "sid": 1594,
+   "kind": 1,
+   "riskBps": 7261,
+   "planHash": "308266485a3d2dd6aa1c362f269d18c015e873ce546475c7d21998a4ea6e253f"
+  },
+  {
+   "sid": 2645,
+   "kind": 1,
+   "riskBps": 7528,
+   "planHash": "f7f588343a7f350747bf6c81edaed100368ddfb58688fa65c2533be961a5cda7"
+  },
+  {
+   "sid": 1878,
+   "kind": 1,
+   "riskBps": 8795,
+   "planHash": "7f19e22a39db834ee3935ba940f457ae7beffcd53e555007b3986020a887b027"
+  },
+  {
+   "sid": 1878,
+   "kind": 3,
+   "riskBps": 8795,
+   "planHash": "27066ce2b54499149b081da071466ce0f40da7125b2bb07e5d1b0cb55d4e7bba"
+  },
+  {
+   "sid": 1568,
+   "kind": 1,
+   "riskBps": 8580,
+   "planHash": "6806ff49b8ca5b6257fed34f8b5f980aa415d6c7b5293f0a83822ff3c1ec350b"
+  },
+  {
+   "sid": 1568,
+   "kind": 3,
+   "riskBps": 8580,
+   "planHash": "e37a74568110a5c8fb26b691141461410f64fdf9f0b4675dd52f069f32acbfb3"
+  },
+  {
+   "sid": 4008,
+   "kind": 0,
+   "riskBps": 9863,
+   "planHash": "dce89d7cedfce79942634fc1ccf14bbb39639e515e926b6670b0706c811e468a"
+  },
+  {
+   "sid": 4008,
+   "kind": 1,
+   "riskBps": 9863,
+   "planHash": "2af8696e02c61dc5fedb5f0e5cd6717db569625d414f5cd799bccf61f80b2129"
+  },
+  {
+   "sid": 4008,
+   "kind": 3,
+   "riskBps": 9863,
+   "planHash": "454419cca95c39514fb5ab045b2e37e8d2eed0e2af613a4e77ac07d4535eebcd"
+  },
+  {
+   "sid": 255,
+   "kind": 1,
+   "riskBps": 9033,
+   "planHash": "9f97fe4854397d551f75c26043c230c4aba16b8ec80c9691ddd4452a5a371acc"
+  },
+  {
+   "sid": 255,
+   "kind": 3,
+   "riskBps": 9033,
+   "planHash": "abc2358537bed69ba0a85beb1a16960c8a204ebd2d9b2a8485e79496800b2068"
+  },
+  {
+   "sid": 2648,
+   "kind": 1,
+   "riskBps": 7186,
+   "planHash": "bd5c846aac5a58268e19d1fc13608a83648545c7fb606943ee37d605de48aca2"
+  },
+  {
+   "sid": 644,
+   "kind": 0,
+   "riskBps": 9861,
+   "planHash": "9d89bc675361e6fcf05de4038088350e6b204329c0b77e95d54a52257d788d12"
+  },
+  {
+   "sid": 644,
+   "kind": 1,
+   "riskBps": 9861,
+   "planHash": "508498fbe68701a889167c2c83dd555a33556451eb15511a07b2467397e7dbff"
+  },
+  {
+   "sid": 644,
+   "kind": 3,
+   "riskBps": 9861,
+   "planHash": "ac42185a829367c258b38e982ec63935a31d1c96819875fc57a08498522440f7"
+  },
+  {
+   "sid": 1175,
+   "kind": 1,
+   "riskBps": 8452,
+   "planHash": "3870a65f406bd2c9b976da3f262ae3bf2a4474c3df26f5ebba7e9b4c658dbdd6"
+  },
+  {
+   "sid": 4375,
+   "kind": 1,
+   "riskBps": 8620,
+   "planHash": "93ac21e9e193ca08745508d1f65fb90f1c5cc78c7e61cf2cc314be9789b9dfd6"
+  },
+  {
+   "sid": 1088,
+   "kind": 1,
+   "riskBps": 7717,
+   "planHash": "ecfb17ce710b713453233c3b4416c85e060c7c06c8ed43a3bc80e380f3b36980"
+  },
+  {
+   "sid": 730,
+   "kind": 3,
+   "riskBps": 9525,
+   "planHash": "b6b24dc6c71ceab97071700c303d40cb2f5f66e4ce0e965ec2fc0e96b3e5afcd"
+  },
+  {
+   "sid": 4261,
+   "kind": 3,
+   "riskBps": 9558,
+   "planHash": "68424415e082c9e4dd5952ead4f690d9d24be5b8ca1cb096d339bef3d0c06317"
+  },
+  {
+   "sid": 3823,
+   "kind": 1,
+   "riskBps": 9087,
+   "planHash": "d81aa8bff9cc6075b6c8ede8632ff84dec07cf5a1da1e3ec85d003ca183cb3aa"
+  },
+  {
+   "sid": 3487,
+   "kind": 0,
+   "riskBps": 9915,
+   "planHash": "1bb8f4d7e62036027f1a871bd3c98cfabc43d0a2bc386fa77dcb25ea29daf1bf"
+  },
+  {
+   "sid": 3487,
+   "kind": 1,
+   "riskBps": 9915,
+   "planHash": "ed834dcf5ff66f41fe04bf5739e2e4d8aabb0539a6d38cb186de292349d5b4dd"
+  },
+  {
+   "sid": 3487,
+   "kind": 3,
+   "riskBps": 9915,
+   "planHash": "5dd87b0e0f41febe2b330a8c14c16cf1946ccbca20f39424193da66d65e7ab35"
+  },
+  {
+   "sid": 1337,
+   "kind": 3,
+   "riskBps": 6253,
+   "planHash": "b907b0aaf43fa5cd9dabb5c548bd559c53ed47560218ebd27e5bbce438fb5df9"
+  },
+  {
+   "sid": 3722,
+   "kind": 1,
+   "riskBps": 9397,
+   "planHash": "3808fa42a9d31fda7e6a5fb3bf98f89c962d25b8e878277cc1d9e298464ed1d5"
+  },
+  {
+   "sid": 277,
+   "kind": 0,
+   "riskBps": 9767,
+   "planHash": "2098b1d1e8abf55e0e73f26286c6b2488f9e3622d75cd797f3de50e9e288964c"
+  },
+  {
+   "sid": 277,
+   "kind": 3,
+   "riskBps": 9767,
+   "planHash": "b328e2fca10356631e967e4900054e92ca2bd2f12ab48fa2862db42251550f12"
+  },
+  {
+   "sid": 2004,
+   "kind": 0,
+   "riskBps": 9968,
+   "planHash": "f51686c7f3f9e50f43688741a2964bd77401b0bab6353940f3133810f4014bc6"
+  },
+  {
+   "sid": 2004,
+   "kind": 1,
+   "riskBps": 9968,
+   "planHash": "afdabb06c0bda5e43076f682c7aa50038b52e451f70c4c986a869aaed860df46"
+  },
+  {
+   "sid": 2004,
+   "kind": 3,
+   "riskBps": 9968,
+   "planHash": "367ff7901907e8bfe940c1ef8b340d35e6ce89adead778bea68c58005a6dcc64"
+  },
+  {
+   "sid": 885,
+   "kind": 4,
+   "riskBps": 8751,
+   "planHash": "e00608c92d2b9758eaee3cf9a65416329f81cf9f9bf5667a80f0657081477f56"
+  },
+  {
+   "sid": 2711,
+   "kind": 0,
+   "riskBps": 9899,
+   "planHash": "caf0a642412ea112b6aa2999c9bc5cf9c709aa6a02e3708f22d26267b1cce45f"
+  },
+  {
+   "sid": 2711,
+   "kind": 1,
+   "riskBps": 9899,
+   "planHash": "28a1291bbca0e9d201734731553eeba9461e4e66b0dcc5a3f18822807918efd4"
+  },
+  {
+   "sid": 2711,
+   "kind": 3,
+   "riskBps": 9899,
+   "planHash": "cb4510488aa0df8659ef72ee2bdb66decc0fd9b93205d4306c462712023225ae"
+  },
+  {
+   "sid": 916,
+   "kind": 0,
+   "riskBps": 9836,
+   "planHash": "c181e24dddac587ba76a12b488bf9658080b4f00c3dde86eb3f5e10103ea100c"
+  },
+  {
+   "sid": 916,
+   "kind": 1,
+   "riskBps": 9836,
+   "planHash": "09677997440aacb8dbfad78bc1e6f83d52ff8e811e2a4b69661a4d865250c72f"
+  },
+  {
+   "sid": 393,
+   "kind": 1,
+   "riskBps": 9417,
+   "planHash": "93a5bf2e561dfdf1924901cdb6cbf29b8092343699c9183ceb3c05392b9de644"
+  },
+  {
+   "sid": 393,
+   "kind": 3,
+   "riskBps": 9417,
+   "planHash": "7547e9120f8d72a2fde3f1d51440af85732f528173ff34da019bddbc01de3b4d"
+  },
+  {
+   "sid": 1850,
+   "kind": 0,
+   "riskBps": 9972,
+   "planHash": "740e9a090f1651e8d7a352bfa8ef53895eb1efa883b52445035c95a7900a6550"
+  },
+  {
+   "sid": 1850,
+   "kind": 1,
+   "riskBps": 9972,
+   "planHash": "af77dc0a62cdc9d6c51fbcc249ed4ba02e623fb188df64bd7d2750780bb12ba7"
+  },
+  {
+   "sid": 1850,
+   "kind": 3,
+   "riskBps": 9972,
+   "planHash": "d739201d3a87bba3dc7c8f79094e7a1e32b69c0232a6a77f11758ee3f1069328"
+  },
+  {
+   "sid": 3707,
+   "kind": 1,
+   "riskBps": 7517,
+   "planHash": "41c8aa0dfcc09b67b8c7a4d35158e6a30d0e66f920086ce10966a0a132fdb12f"
+  },
+  {
+   "sid": 0,
+   "kind": 1,
+   "riskBps": 6948,
+   "planHash": "a42fcdf34292fad3b00ef2698c7ce0f3d47becefb0331efa7f4c15102ecd485e"
+  },
+  {
+   "sid": 3904,
+   "kind": 0,
+   "riskBps": 9802,
+   "planHash": "fe95610388c492e212da4cfd31aed1182875911374c20650c98df0d3c5bc29a8"
+  },
+  {
+   "sid": 3904,
+   "kind": 1,
+   "riskBps": 9802,
+   "planHash": "5a8136133fa86d6b8696f101047b59b94fc0827a75f1368188d4e150bbd67038"
+  },
+  {
+   "sid": 3904,
+   "kind": 3,
+   "riskBps": 9802,
+   "planHash": "3489de60d0e1a4016009000a808b353b8466f90ae65c2b191bce522bba7509ee"
+  },
+  {
+   "sid": 3873,
+   "kind": 1,
+   "riskBps": 8754,
+   "planHash": "46a6b08a918703f2d3ad98008fa4d45d8b6b2b58a20f105c9c89ba32e4e8630b"
+  },
+  {
+   "sid": 3873,
+   "kind": 3,
+   "riskBps": 8754,
+   "planHash": "d1551e170d9f02789d34808818f7ffbb0e2f306b4eb78b742949e6fa9bc01814"
+  },
+  {
+   "sid": 3412,
+   "kind": 1,
+   "riskBps": 6098,
+   "planHash": "9dd6cff347f0c68b2a94aacd5233b49a7102557d637f33c3cb478e9d0ca37dc7"
+  },
+  {
+   "sid": 3188,
+   "kind": 1,
+   "riskBps": 8963,
+   "planHash": "43d56e1e4feb397d7e978e28289d54636dc81cfab05d021e73cc8e0beae7edee"
+  },
+  {
+   "sid": 1897,
+   "kind": 3,
+   "riskBps": 8007,
+   "planHash": "a9f071eebdc0f43d2742608005b510db83aae7775e983fd79d6c611c0b981c19"
+  },
+  {
+   "sid": 3699,
+   "kind": 1,
+   "riskBps": 6830,
+   "planHash": "a856ac329920013ab919385ea3cec405ba303e9462029f82c67d967a9f75adc9"
+  },
+  {
+   "sid": 2930,
+   "kind": 0,
+   "riskBps": 9788,
+   "planHash": "98ab532108b9193f5bd86ccfe09d746b714cf7f8c2141050440a19ec2ce7a102"
+  },
+  {
+   "sid": 2930,
+   "kind": 1,
+   "riskBps": 9788,
+   "planHash": "b50b483d44e112d8489b5ba0d9e2ff4a6aa4a559bfca861183d1ae663b24e3c1"
+  },
+  {
+   "sid": 2939,
+   "kind": 1,
+   "riskBps": 9677,
+   "planHash": "7e56838f4ae57fa61df2473b5d4c60b99884ea0c50729a1cdd7c16b040791595"
+  },
+  {
+   "sid": 3102,
+   "kind": 0,
+   "riskBps": 9927,
+   "planHash": "50df72776151c5eb27beb8b86e28c97fb919f44ee4d31c6d331487d5c5c34ff0"
+  },
+  {
+   "sid": 3102,
+   "kind": 1,
+   "riskBps": 9927,
+   "planHash": "e9202e78355d4f5682cbaac220f81028ac61e39059ae6a25a33539d93d1c7ede"
+  },
+  {
+   "sid": 3102,
+   "kind": 3,
+   "riskBps": 9927,
+   "planHash": "7465e9d5ca32b67751987c97d7657fc80adb49f99c7f6893565f5979c56eeece"
+  },
+  {
+   "sid": 734,
+   "kind": 0,
+   "riskBps": 9771,
+   "planHash": "5168df20fe71b5e1dd84dcef21cc136e3992a81b8307b723d540cfe529d3be9c"
+  },
+  {
+   "sid": 734,
+   "kind": 1,
+   "riskBps": 9771,
+   "planHash": "db05e94ed0dfb34357ce233b475d3218dba6450cffb743beec2b3e2abe600d14"
+  },
+  {
+   "sid": 4387,
+   "kind": 3,
+   "riskBps": 8163,
+   "planHash": "7169c57f7dbd8188145f99fe9a11baac4fa045285688ec56f3f14b63c090769a"
+  },
+  {
+   "sid": 3205,
+   "kind": 0,
+   "riskBps": 9941,
+   "planHash": "bff33503e93d28c2d7bd324f1447297de2e5664bd0b49c9c71a2ce4b8a93de92"
+  },
+  {
+   "sid": 3205,
+   "kind": 1,
+   "riskBps": 9941,
+   "planHash": "188374ccee5f7782299e55d5012007e66f57a3623f3ccfb902d268ea44238fbd"
+  },
+  {
+   "sid": 3205,
+   "kind": 3,
+   "riskBps": 9941,
+   "planHash": "4f3fe6906ba580ac45da0f805e3270171e3dccdc6b96f07e4be0a004ff1f1370"
+  },
+  {
+   "sid": 3577,
+   "kind": 1,
+   "riskBps": 9468,
+   "planHash": "24de2e47e1c097435c7b3f214ab234bda9cc7cbf0940710ec57163cc32b1ec0d"
+  },
+  {
+   "sid": 3577,
+   "kind": 3,
+   "riskBps": 9468,
+   "planHash": "559feea200fa614f42a9e87cbd8b07b57ad5ec6523feea3a623cc4a03aef4be5"
+  },
+  {
+   "sid": 1386,
+   "kind": 0,
+   "riskBps": 9943,
+   "planHash": "912ee57318db3a939544db19bfb93115960afc3998668fd80839c9d4bf17dd79"
+  },
+  {
+   "sid": 1386,
+   "kind": 1,
+   "riskBps": 9943,
+   "planHash": "6425318c7a917aaabdcbbcce0f26100dceb158ed6745837a5170b543dc8ae9f0"
+  },
+  {
+   "sid": 1386,
+   "kind": 3,
+   "riskBps": 9943,
+   "planHash": "f7b8c9c3c7892e746af48788ba04eb637f3c53afcff493cee0a91e67e917acd9"
+  },
+  {
+   "sid": 1886,
+   "kind": 0,
+   "riskBps": 9749,
+   "planHash": "44cb5cb99817c43543d5ef04553564df7ec125759f06141f8d09b94be5387965"
+  },
+  {
+   "sid": 1886,
+   "kind": 1,
+   "riskBps": 9749,
+   "planHash": "d1eeee6374f66def3585c0e9b93026c30c33efb4bcd1d5496cc75ed1c8a8edf6"
+  },
+  {
+   "sid": 1886,
+   "kind": 3,
+   "riskBps": 9749,
+   "planHash": "58c9f835aaabc0844eb94b67b540560d9a9abdcc2a34a203cd9df6f232fbf728"
+  },
+  {
+   "sid": 387,
+   "kind": 4,
+   "riskBps": 6598,
+   "planHash": "590d2b567ef05db32b1f9249aa8c8389a01e29a07a94b8bbaa5535ea7d7773eb"
+  },
+  {
+   "sid": 1295,
+   "kind": 1,
+   "riskBps": 9658,
+   "planHash": "4b57cac0d47856e578df46600acd342ba54249eff1b5835b995b06db7786c546"
+  },
+  {
+   "sid": 3365,
+   "kind": 1,
+   "riskBps": 9486,
+   "planHash": "a98b2260dc832d1a3a87316ca6e6324aa21ad4cabf127100b23ee69b4d83b2cb"
+  },
+  {
+   "sid": 3365,
+   "kind": 3,
+   "riskBps": 9486,
+   "planHash": "dc3391c83e7977b1c759a32ca33e2c4881bcac865cad221ac5ddd7cb13eef123"
+  },
+  {
+   "sid": 1135,
+   "kind": 0,
+   "riskBps": 9812,
+   "planHash": "3c89bab71cb75b1a977456dbf6d78d1b9068100e31619cda7676e9a999400aa1"
+  },
+  {
+   "sid": 1135,
+   "kind": 1,
+   "riskBps": 9812,
+   "planHash": "b608997de70d2ae886796e05b89b2bdee8fb595f811508d9a758c3e7dda5175d"
+  },
+  {
+   "sid": 1135,
+   "kind": 3,
+   "riskBps": 9812,
+   "planHash": "459a9aa6f4e93c5843c536d9823aa283174b887f9635db44c3e00ab93bbb4a6b"
+  },
+  {
+   "sid": 924,
+   "kind": 1,
+   "riskBps": 8762,
+   "planHash": "a50a8db3c413c8a77a19cb2159f57c1e8a8b84746fa4a895ec3e673c7085a764"
+  },
+  {
+   "sid": 531,
+   "kind": 0,
+   "riskBps": 9837,
+   "planHash": "8cd54a2057ebf5de26ee8b6caf5f0dd3edb68d85544f3222499ac6292862a950"
+  },
+  {
+   "sid": 531,
+   "kind": 1,
+   "riskBps": 9837,
+   "planHash": "a789480973e830588b3edfe2c10ff9a3d2fbf46358186cead13866ef8233aa72"
+  },
+  {
+   "sid": 1860,
+   "kind": 1,
+   "riskBps": 9378,
+   "planHash": "8bdd5a939591b3ff9f720bc5daa279a5d15294ab644fd7013847eb8f1f2cc07f"
+  },
+  {
+   "sid": 1860,
+   "kind": 3,
+   "riskBps": 9378,
+   "planHash": "9295fdca18e50cbd30c9831597573a1a6838fb5fd340fb2648d66fcc10ee1f29"
+  },
+  {
+   "sid": 1717,
+   "kind": 1,
+   "riskBps": 9409,
+   "planHash": "e7d8cdc33943c4f67504cb2001751a876354e6a1b7d0db3a58fcca0ff5ad3e7f"
+  },
+  {
+   "sid": 923,
+   "kind": 1,
+   "riskBps": 9616,
+   "planHash": "f5431eef5d15bb5ed3ebfbd6563deab6c229b7ca6e593fe43eb1466ee688f0f0"
+  },
+  {
+   "sid": 923,
+   "kind": 3,
+   "riskBps": 9616,
+   "planHash": "af722b9c83b74dc94a97eb8d33ce0762629ca136202cee906a19bf8148548da4"
+  },
+  {
+   "sid": 2934,
+   "kind": 1,
+   "riskBps": 9713,
+   "planHash": "156460e10c45423354640f833dd255d63cc4d7652cdf04c39e31a927215be54b"
+  },
+  {
+   "sid": 2750,
+   "kind": 0,
+   "riskBps": 9795,
+   "planHash": "0fcd0db3972245b88f82b10cb5ba2a88a11b0e721912c821708ffe602909f365"
+  },
+  {
+   "sid": 2750,
+   "kind": 1,
+   "riskBps": 9795,
+   "planHash": "210dac36fbd69b8a71353876cfcde46a4c9de23ff9fb10c72329f4ee3f6facdc"
+  },
+  {
+   "sid": 2750,
+   "kind": 3,
+   "riskBps": 9795,
+   "planHash": "10f905b5c44f4f6caf3f5c5c1116f66abf9a681302ddae449a0f355de2b97597"
+  },
+  {
+   "sid": 1847,
+   "kind": 4,
+   "riskBps": 6528,
+   "planHash": "be91c158636ddda81b7929577965fb681b27fb1672dd9ba4e5490360eb46e946"
+  },
+  {
+   "sid": 1771,
+   "kind": 1,
+   "riskBps": 7363,
+   "planHash": "85268030079df7f1253ff977815e94ffdf5765537eafae1f46324be4e508bdfb"
+  },
+  {
+   "sid": 3496,
+   "kind": 0,
+   "riskBps": 9847,
+   "planHash": "76a1d6a951ca3a8d88b2aa5b6d2692f3cbdfb46f5bcb34d2496cca706f390ad7"
+  },
+  {
+   "sid": 3496,
+   "kind": 1,
+   "riskBps": 9847,
+   "planHash": "b42b6fb46ae58e386baf6129758b943e8bbce9d4a8e7b9d2fd221a79ddf53db1"
+  },
+  {
+   "sid": 3496,
+   "kind": 3,
+   "riskBps": 9847,
+   "planHash": "14b85241a0752e35a5aabd5184a15060db028ed8ed994526ed0c21f0dd406c90"
+  },
+  {
+   "sid": 1625,
+   "kind": 0,
+   "riskBps": 9964,
+   "planHash": "4bcbd19dd9645807593d0a6a0a034e2f31bc7382a121f2cd07c6032a05f82981"
+  },
+  {
+   "sid": 1625,
+   "kind": 1,
+   "riskBps": 9964,
+   "planHash": "47545e8bbdecb99b31038599f1866a3486579ddef6d8a974fb9380da04cce399"
+  },
+  {
+   "sid": 1625,
+   "kind": 3,
+   "riskBps": 9964,
+   "planHash": "9a4b6ded42bf0d69fb9e964b46671edc754851bf5a9d6a5bccf84dc3733fe054"
+  },
+  {
+   "sid": 3203,
+   "kind": 1,
+   "riskBps": 6613,
+   "planHash": "6332cbd6261963e7bbcf5ede835b0025819f10a8c069b994f8fc2ca424833ff9"
+  },
+  {
+   "sid": 2127,
+   "kind": 3,
+   "riskBps": 9130,
+   "planHash": "e1000d7c70cfae12ee52ce2bf55b35bdc37ced5740174062a6f927f9f1324490"
+  },
+  {
+   "sid": 192,
+   "kind": 1,
+   "riskBps": 9331,
+   "planHash": "e609c2e72991e3a761da2872da0029a77ae50338c3d5e2cad9943712742ca05f"
+  },
+  {
+   "sid": 2159,
+   "kind": 1,
+   "riskBps": 8408,
+   "planHash": "7998d38802ceedc2b92810f4a4b630dc53d5d4a87a0c7fa2f3958595863df3e8"
+  },
+  {
+   "sid": 2553,
+   "kind": 0,
+   "riskBps": 9786,
+   "planHash": "ff7b1d883cc6fe19e276e2f91cd5de47ccd0c28c810a6adcdc0b77386319308d"
+  },
+  {
+   "sid": 2553,
+   "kind": 1,
+   "riskBps": 9786,
+   "planHash": "d943841ed428d435e91a6109a07be06c5d91ca4fde49afc1022dd1e3adc0fbf4"
+  },
+  {
+   "sid": 2553,
+   "kind": 3,
+   "riskBps": 9786,
+   "planHash": "3cfc0ecbebdb4fbbec9253500f639e3b8f9fd31c14823224c982d3f6ab1bc6cd"
+  },
+  {
+   "sid": 4119,
+   "kind": 1,
+   "riskBps": 6699,
+   "planHash": "7060d77d8dfc93bcbb15cbd6f98d81b6a1a8400f90ec7db8d508ca6ea2e9dc1a"
+  },
+  {
+   "sid": 1786,
+   "kind": 0,
+   "riskBps": 9925,
+   "planHash": "b3da628b17d8ff127b6f279e1f6c3c7ab69ca31dcb867fc4655699b4a2318200"
+  },
+  {
+   "sid": 1786,
+   "kind": 1,
+   "riskBps": 9925,
+   "planHash": "c64ffd25296bcbfa57a2972c5e52876baae1954e048c76053af43c41dd8c310f"
+  },
+  {
+   "sid": 4372,
+   "kind": 1,
+   "riskBps": 9585,
+   "planHash": "e6d3c1f65e375900674161daa4b5ab94b4985746a9d861996ba2315610fb1809"
+  },
+  {
+   "sid": 4415,
+   "kind": 1,
+   "riskBps": 9600,
+   "planHash": "12fede56a1e57bf8d9dfd96231bed2643fc22a88f7ef48b1957e6853f3e53c8e"
+  },
+  {
+   "sid": 4415,
+   "kind": 3,
+   "riskBps": 9600,
+   "planHash": "0535dcf009b70683a66a960fb97a48dbf5948c3072cabbe56928a91fb2938e08"
+  },
+  {
+   "sid": 3065,
+   "kind": 0,
+   "riskBps": 9887,
+   "planHash": "51518d91ff50c62e92bbfea030412f6f24f14515a5f9c1867f38e4253f37ff2f"
+  },
+  {
+   "sid": 3065,
+   "kind": 1,
+   "riskBps": 9887,
+   "planHash": "d1e5a5db931b9ceb067dbf2693058e5aaec6e086764c74e25fd8199a83c99419"
+  },
+  {
+   "sid": 3065,
+   "kind": 3,
+   "riskBps": 9887,
+   "planHash": "1199c5804cba409a0c132e318ad62fca566f1c4c943e89923277214dff263e1e"
+  },
+  {
+   "sid": 3185,
+   "kind": 1,
+   "riskBps": 9556,
+   "planHash": "b258b31165e6024003903de0b22718ab06ef61b09a13dc5bfb4d3f298313b959"
+  },
+  {
+   "sid": 2203,
+   "kind": 1,
+   "riskBps": 7823,
+   "planHash": "aa37d2da567e47892df905998df8629460afea5afa40c001e20c57eb4a363ed7"
+  },
+  {
+   "sid": 3339,
+   "kind": 1,
+   "riskBps": 8214,
+   "planHash": "d0599403709e0a03515e6e128ee1b2eaed02a05fafde127f5a8773b0e4a6dcaf"
+  },
+  {
+   "sid": 3242,
+   "kind": 1,
+   "riskBps": 7684,
+   "planHash": "8c77bb818750d13676f960894604482517f6012d8a016b8263e57c6243e13491"
+  },
+  {
+   "sid": 1416,
+   "kind": 0,
+   "riskBps": 9957,
+   "planHash": "801cd267edb269e37bde780cbe76c9a335303792cfce2bf5268b06fe4f680c1c"
+  },
+  {
+   "sid": 1416,
+   "kind": 1,
+   "riskBps": 9957,
+   "planHash": "41f3f8533a2e66bc9c37dcd9da3dd23d35cfd4c246499bdb7d77e1633bbe27b6"
+  },
+  {
+   "sid": 1416,
+   "kind": 3,
+   "riskBps": 9957,
+   "planHash": "7581097ce36a03b81610b1e4bde0e57407f599ed14a5aac6796b4bad312c3149"
+  },
+  {
+   "sid": 3369,
+   "kind": 1,
+   "riskBps": 7264,
+   "planHash": "03847b33bc1ee3579c0babdf90bb964709f089a310acfcef15b3c528ff60c70e"
+  },
+  {
+   "sid": 3369,
+   "kind": 3,
+   "riskBps": 7264,
+   "planHash": "3986fccd650db73848c899f2210edb07066fdc7248259ed91d30cead358f7909"
+  },
+  {
+   "sid": 1317,
+   "kind": 0,
+   "riskBps": 9813,
+   "planHash": "135e5cbba2510e616c115159c9563383a37b9c038c16b07e3c668439237151e9"
+  },
+  {
+   "sid": 1317,
+   "kind": 1,
+   "riskBps": 9813,
+   "planHash": "e052163ff6c584b32c3b7e947fbf3d6fd28c0c0122ffe83c2f96ee9b93c66842"
+  },
+  {
+   "sid": 1317,
+   "kind": 3,
+   "riskBps": 9813,
+   "planHash": "e9729ea3b7b2aa46495079db22752b8767f4207458b33d5622b1832b0b5d4d96"
+  },
+  {
+   "sid": 1013,
+   "kind": 1,
+   "riskBps": 9631,
+   "planHash": "1411de78b49220c2d1f5a6e5539ad8ad23f855d750817c1780b8536a2c8bb8f3"
+  },
+  {
+   "sid": 2447,
+   "kind": 1,
+   "riskBps": 9357,
+   "planHash": "7115e20600f700abf4fbd5ef48e3561007eb2495c02265bb7e6f5935324e8e2d"
+  },
+  {
+   "sid": 2033,
+   "kind": 0,
+   "riskBps": 9824,
+   "planHash": "7763590389814ba8a7ccc1346f4e7d95735612fc5c95cacfe744625f67941126"
+  },
+  {
+   "sid": 2033,
+   "kind": 1,
+   "riskBps": 9824,
+   "planHash": "6b403031f01769b955bdba3aff24cb5716597792f448a2bab3a090d6a05e35de"
+  },
+  {
+   "sid": 1388,
+   "kind": 1,
+   "riskBps": 9107,
+   "planHash": "9e467303dd555a5f771950005eb1d29a08724dc7849c4ca784750227fb433f63"
+  },
+  {
+   "sid": 3731,
+   "kind": 1,
+   "riskBps": 7131,
+   "planHash": "dec48ce686bbdf9c3193eb4cfb1fb7723a4edc4a7c8a231406a3c9855c6cf955"
+  },
+  {
+   "sid": 3022,
+   "kind": 1,
+   "riskBps": 6978,
+   "planHash": "ded7887ac4d8edc1f6023fde630ce8cebf6bbf7ed98fc41b8453d404a25be4dd"
+  },
+  {
+   "sid": 247,
+   "kind": 0,
+   "riskBps": 9817,
+   "planHash": "c3826ce8fed80b27cf73d5045a51d068bdd2f5169f20563a92d09a1e54b8e853"
+  },
+  {
+   "sid": 247,
+   "kind": 1,
+   "riskBps": 9817,
+   "planHash": "889a1e5aadb2016da572239754f23c3cf0e8079c4f5eb93336a2c229116d2cb4"
+  },
+  {
+   "sid": 247,
+   "kind": 3,
+   "riskBps": 9817,
+   "planHash": "a55230fbe888d483271620a818119ded2b89f1d0f04fa9db8d130877fbf87c89"
+  },
+  {
+   "sid": 3637,
+   "kind": 3,
+   "riskBps": 8400,
+   "planHash": "7a9ebffc763b058a116e13f5299b1e5440f507e7d8bf39f792e3b96b3244a80d"
+  },
+  {
+   "sid": 2910,
+   "kind": 1,
+   "riskBps": 9720,
+   "planHash": "cd8430e59e4cb20ab81c78f04e84bfbbe3aeb9b714ace2725e632bfb6707e3ba"
+  },
+  {
+   "sid": 3505,
+   "kind": 1,
+   "riskBps": 8465,
+   "planHash": "f40cd2ba7541c162af1ef03468b04dc13a01803b009df500dfdcd731eb465de9"
+  },
+  {
+   "sid": 1333,
+   "kind": 1,
+   "riskBps": 6902,
+   "planHash": "fdbc0b5ad31a760d0bc79db0fca77b8e2818a53f94a348e40f77846407d0c3f7"
+  },
+  {
+   "sid": 2402,
+   "kind": 1,
+   "riskBps": 8923,
+   "planHash": "00fbe8ae03cca85f7e32054990825b4e9b491711608f0425e0ef20de275a722e"
+  },
+  {
+   "sid": 2402,
+   "kind": 3,
+   "riskBps": 8923,
+   "planHash": "ff96a119e185dcef9f3a86b696331bf6febf6c4a862f6ca11ae2caafd2f54d6d"
+  },
+  {
+   "sid": 2270,
+   "kind": 0,
+   "riskBps": 9906,
+   "planHash": "86c903ec819cadd44fde467bb2947bd632317f00e92396d8bf2a0e2ac250be5b"
+  },
+  {
+   "sid": 2270,
+   "kind": 1,
+   "riskBps": 9906,
+   "planHash": "f9966f23cdaa11acc505ef22b1d6fded351bfbad2aad4d663dba6f6a646260bc"
+  },
+  {
+   "sid": 2270,
+   "kind": 3,
+   "riskBps": 9906,
+   "planHash": "4f85a87fc6879ba40792c2c6fe203e26e0c8a24780e328806e2654eb169479b6"
+  },
+  {
+   "sid": 3252,
+   "kind": 1,
+   "riskBps": 7405,
+   "planHash": "1dc8d8224bd3feef13fca0dfeb2fac9dd7e70b810c987bbb76b6fb340892d8a9"
+  },
+  {
+   "sid": 1197,
+   "kind": 1,
+   "riskBps": 7266,
+   "planHash": "f48fe76baf4c6d95e7954f0ca9e370ebb18f45fd99891b89fc23c79a795988a0"
+  },
+  {
+   "sid": 2764,
+   "kind": 1,
+   "riskBps": 6350,
+   "planHash": "721b6afadbfb4e93f63f30e50b79ce5ca6680e5d819b1ad281321e6856c41a6c"
+  },
+  {
+   "sid": 4288,
+   "kind": 0,
+   "riskBps": 9817,
+   "planHash": "07e0b364d248e72fc23248a7d895d55bcfc7051855de56ec40222f5ffc951db7"
+  },
+  {
+   "sid": 4288,
+   "kind": 1,
+   "riskBps": 9817,
+   "planHash": "4627fadd4319fda0d5d77f4c446fbb04070a5d3138534cda83615a1f211db309"
+  },
+  {
+   "sid": 4288,
+   "kind": 3,
+   "riskBps": 9817,
+   "planHash": "46ed892e34d4c650189569275427829d9edbbf01b80306952bd9b4aca62f4087"
+  },
+  {
+   "sid": 2935,
+   "kind": 1,
+   "riskBps": 9600,
+   "planHash": "6e497ed662e0e032f98d2a2c586fadd65e8ccc58c56e6946ec37edb95f799854"
+  },
+  {
+   "sid": 2935,
+   "kind": 3,
+   "riskBps": 9600,
+   "planHash": "7fa0f43a5f35d61e31940b9700675902b3c3251cd05f09b7b99db73e7f3972a4"
+  },
+  {
+   "sid": 2485,
+   "kind": 0,
+   "riskBps": 9954,
+   "planHash": "3eab18cb20fa7fbff8d3528f1e80f9aba0a922158cb9fa40739ae442bf70af41"
+  },
+  {
+   "sid": 2485,
+   "kind": 1,
+   "riskBps": 9954,
+   "planHash": "8ffacf01d9ee00b23585d1493cd99ade166d9fab8151ef5668fa366df95e683b"
+  },
+  {
+   "sid": 2485,
+   "kind": 3,
+   "riskBps": 9954,
+   "planHash": "035518363eb99c61a1bb885615e6951f01432b3b7f0dd3ff88afcf53cb1fd64b"
+  },
+  {
+   "sid": 3014,
+   "kind": 0,
+   "riskBps": 9868,
+   "planHash": "ec2369b12e601b4448e6e89a15dab3ed9ac25147035f6864ccb455884730c88a"
+  },
+  {
+   "sid": 3014,
+   "kind": 1,
+   "riskBps": 9868,
+   "planHash": "bb4eff3b7ddb6c90953b0d18acc29ae9b7cf15812869d5b24cb02998b2b694dc"
+  },
+  {
+   "sid": 1381,
+   "kind": 0,
+   "riskBps": 9987,
+   "planHash": "11a7145bd64dac13c57d8bd1fb5d06bd9ab76658f76576f64357ac9966d718d3"
+  },
+  {
+   "sid": 1381,
+   "kind": 1,
+   "riskBps": 9987,
+   "planHash": "b009d2606bc0ca9834d8987cbd5f622742255f0fa8fcf7e18432f50a86ddd83b"
+  },
+  {
+   "sid": 1381,
+   "kind": 3,
+   "riskBps": 9987,
+   "planHash": "b323652d7ebe8376b42912ba4fbe76819118bea13b809cc84d1ada78952d277c"
+  },
+  {
+   "sid": 1638,
+   "kind": 0,
+   "riskBps": 9745,
+   "planHash": "5f3fd5d3bd7e276c17dc1e907240dc0429a2df8b489d40bb372871949f475d13"
+  },
+  {
+   "sid": 1638,
+   "kind": 1,
+   "riskBps": 9745,
+   "planHash": "8371584e1fadfbca1b20a65f108171192429024391d91cc352b2f5a83d65a188"
+  },
+  {
+   "sid": 1638,
+   "kind": 3,
+   "riskBps": 9745,
+   "planHash": "7963c2101f5836f56acc32e915946d3039b9b2bce19a99c65faba0d5a7f90920"
+  },
+  {
+   "sid": 980,
+   "kind": 1,
+   "riskBps": 8133,
+   "planHash": "c546f8b8f0846e673dba324bff061136962a303c059c57177ae22ad7b2575b8b"
+  },
+  {
+   "sid": 3341,
+   "kind": 3,
+   "riskBps": 9556,
+   "planHash": "3de050f170e07cc03cdf7ac6d21fcaa95b722cc8631e238b9b9be1df614e2857"
+  },
+  {
+   "sid": 1841,
+   "kind": 1,
+   "riskBps": 7996,
+   "planHash": "6d22c929d2bc27cf936fbb0b7fc37ac0f9968660ef657d02ee38f85ab64440d5"
+  },
+  {
+   "sid": 1473,
+   "kind": 1,
+   "riskBps": 9450,
+   "planHash": "1547cba46423d095ea4531740a07d0d98aa4897fa7b6d92335f8ac6bd51822a7"
+  },
+  {
+   "sid": 1763,
+   "kind": 1,
+   "riskBps": 6780,
+   "planHash": "2070311dcfc7d9cd7b57d9a7eda8c59cf916da3e999348947aa4f69e2cc9c12e"
+  },
+  {
+   "sid": 1763,
+   "kind": 3,
+   "riskBps": 6780,
+   "planHash": "e832ecd151965e8a6645ef5ba86c7e3c134e76a9fe60cefc9ecb1e26aff89d2c"
+  }
+ ],
+ "aid_requests": [
+  {
+   "sid": 3861,
+   "programme": 1,
+   "riskBps": 8543,
+   "engagementBps": 6205,
+   "evidence": "6d3e51e8900ce6610d54d80faa18c118a524b5bd91506d69a64a504333cf6d0f"
+  },
+  {
+   "sid": 1220,
+   "programme": 2,
+   "riskBps": 7350,
+   "engagementBps": 5086,
+   "evidence": "4270929a9f41d86ef20d868b84dee76c84c355d6823fbbc8f5c651a81b2b6dc9"
+  },
+  {
+   "sid": 2689,
+   "programme": 1,
+   "riskBps": 9557,
+   "engagementBps": 4412,
+   "evidence": "ed99831a89571042bd41b8bea8b4079d399d45cd6db640360d9b6fff125dd684"
+  },
+  {
+   "sid": 3583,
+   "programme": 2,
+   "riskBps": 8933,
+   "engagementBps": 5965,
+   "evidence": "4be1b1db57686573608699c620f6b7fdba5d2f5d4690fa88ea601ed2f392fcf7"
+  },
+  {
+   "sid": 3964,
+   "programme": 2,
+   "riskBps": 9458,
+   "engagementBps": 7177,
+   "evidence": "54e0d25b60ef6fd5da61942b1568e6f7af931a750a77bdb8d6a90222c466f3ae"
+  },
+  {
+   "sid": 4301,
+   "programme": 1,
+   "riskBps": 8443,
+   "engagementBps": 3720,
+   "evidence": "9ecd6cd1ab0205e104fa4229ab263239f1b364c119fb7f06a53146a5f9c933f4"
+  },
+  {
+   "sid": 2979,
+   "programme": 1,
+   "riskBps": 7084,
+   "engagementBps": 8048,
+   "evidence": "8618164c1a24d825e59dc207e77d029e7d7ba5fcc2fa215d399ac0e670e6b19b"
+  },
+  {
+   "sid": 239,
+   "programme": 2,
+   "riskBps": 9621,
+   "engagementBps": 7182,
+   "evidence": "a1c9d0d44fd30801e05ad2ae2876bd857eb27add6710bc74175fd76eb3187205"
+  },
+  {
+   "sid": 3934,
+   "programme": 1,
+   "riskBps": 8800,
+   "engagementBps": 3466,
+   "evidence": "147f5f367bbbe19a54df774531b8b04ddfa64866d3326ece5cd833a3d4a942de"
+  },
+  {
+   "sid": 3223,
+   "programme": 2,
+   "riskBps": 9941,
+   "engagementBps": 5550,
+   "evidence": "6860a0ebe2b59757f151fe1cd64c536168c498f03a5836b8fa730bdd3c9c340f"
+  },
+  {
+   "sid": 495,
+   "programme": 2,
+   "riskBps": 9913,
+   "engagementBps": 8171,
+   "evidence": "8b55cfa70491eb455f8f8b00505bd5ac8d1ac0f7997c6decbaad43b88ab9043e"
+  },
+  {
+   "sid": 35,
+   "programme": 2,
+   "riskBps": 9889,
+   "engagementBps": 3436,
+   "evidence": "6c37e74bcb8f35160e8b18fef24e44e8478a664fae700113a4d30cf66427cad1"
+  },
+  {
+   "sid": 4246,
+   "programme": 1,
+   "riskBps": 7799,
+   "engagementBps": 3279,
+   "evidence": "e6c6508fcc9b2abf8dcad5a4be4222dea1abffd2b47477cb6fd30df586092de0"
+  },
+  {
+   "sid": 757,
+   "programme": 1,
+   "riskBps": 9305,
+   "engagementBps": 5677,
+   "evidence": "cd2b01540ae4d4f925f4f5d55367b65762f88262635d60395699065eb34b6621"
+  },
+  {
+   "sid": 1222,
+   "programme": 2,
+   "riskBps": 9950,
+   "engagementBps": 5600,
+   "evidence": "bf1115abc8b4c4e2da3a9a64d286c620022afb261c1cb114a59a2c0bd1aa9868"
+  },
+  {
+   "sid": 1548,
+   "programme": 1,
+   "riskBps": 9865,
+   "engagementBps": 4370,
+   "evidence": "3f9b2494187a4ae487bc1c608ec0aed125681af632fd4707060a6a0241a7484c"
+  },
+  {
+   "sid": 2327,
+   "programme": 1,
+   "riskBps": 9941,
+   "engagementBps": 8014,
+   "evidence": "c1d3fe409e9c11980ef2c4466ac520988149fc7db00e55c620d4fdcf1a4f09be"
+  },
+  {
+   "sid": 3533,
+   "programme": 2,
+   "riskBps": 9992,
+   "engagementBps": 2892,
+   "evidence": "a3dbd907443ad51a7c454618358b9ad081243db15ad186166bea28c009df3261"
+  },
+  {
+   "sid": 2407,
+   "programme": 2,
+   "riskBps": 9928,
+   "engagementBps": 7095,
+   "evidence": "1abee640987bea2de835f3be3bf11eda529a0a25b19b6eda719f9099f9b8d7cd"
+  },
+  {
+   "sid": 840,
+   "programme": 2,
+   "riskBps": 9014,
+   "engagementBps": 7714,
+   "evidence": "617b74443f6237c11d340782e4bc4bd481d7a2ff0d6b4b0c29f1456f7f9517fb"
+  },
+  {
+   "sid": 4140,
+   "programme": 2,
+   "riskBps": 9951,
+   "engagementBps": 7367,
+   "evidence": "1ba2469827b1bed83db53e72a89ca9b07653ba148ea245696460b8eb512138bc"
+  },
+  {
+   "sid": 1572,
+   "programme": 1,
+   "riskBps": 9925,
+   "engagementBps": 4260,
+   "evidence": "546abc7ee1d06ef0da6f0a7f72eebd3e206a53a850761214b8f774b0889d22d9"
+  },
+  {
+   "sid": 2651,
+   "programme": 1,
+   "riskBps": 6758,
+   "engagementBps": 5162,
+   "evidence": "c31b63aca9be89050b89089ada426bcb084435d8467fff6b6b27fc417a861b61"
+  },
+  {
+   "sid": 3859,
+   "programme": 1,
+   "riskBps": 8821,
+   "engagementBps": 5995,
+   "evidence": "409d423985d4ccb7a8e31c995c76612889bb42e8db9c0e4e834173f8ac70ec2b"
+  },
+  {
+   "sid": 3837,
+   "programme": 1,
+   "riskBps": 8928,
+   "engagementBps": 4049,
+   "evidence": "f256b1bf5b9a25ca54ff0b9cc77ae945497337285cee4b7f5afedc60b9b115fa"
+  },
+  {
+   "sid": 1687,
+   "programme": 2,
+   "riskBps": 9820,
+   "engagementBps": 8477,
+   "evidence": "329a833ab48ae4dac87f6363566c983c163b983f403f03546ef7e2f43a24a6c9"
+  },
+  {
+   "sid": 3819,
+   "programme": 1,
+   "riskBps": 9704,
+   "engagementBps": 6669,
+   "evidence": "9abea0150d200e503b0b777c9d31be327ac63f6bedbdedc21edb5c7040608208"
+  },
+  {
+   "sid": 4283,
+   "programme": 2,
+   "riskBps": 9810,
+   "engagementBps": 6519,
+   "evidence": "845361d3c156f2fb8953f93dcd140b032ed871c935c58ef25ca4092081a992f7"
+  },
+  {
+   "sid": 2450,
+   "programme": 2,
+   "riskBps": 9727,
+   "engagementBps": 5714,
+   "evidence": "4a3b1a09cb5f3527ab9eee6e6e374ffc2113f2353326bc6b1ca594e5f8770b5a"
+  },
+  {
+   "sid": 1833,
+   "programme": 1,
+   "riskBps": 9125,
+   "engagementBps": 6906,
+   "evidence": "3caad05513cf4a7709d9fbe4260816e516c41bd865e36500a13aea40b52ad8c7"
+  },
+  {
+   "sid": 4242,
+   "programme": 1,
+   "riskBps": 9185,
+   "engagementBps": 2354,
+   "evidence": "fc6c046d49871eaa45e8295ec07f3b48357c85e845622342c8b011b9821601c6"
+  },
+  {
+   "sid": 2756,
+   "programme": 1,
+   "riskBps": 9918,
+   "engagementBps": 5744,
+   "evidence": "6afea5fbaf19d1b7bc973ef61880090d9b6d75ea0a8fdca29d3cad4fe4dfcec4"
+  },
+  {
+   "sid": 1593,
+   "programme": 2,
+   "riskBps": 9563,
+   "engagementBps": 8617,
+   "evidence": "fc984153a50c98fa4e6fffd67d03efebbcf7ac485161017e8fce359566660efc"
+  },
+  {
+   "sid": 4357,
+   "programme": 2,
+   "riskBps": 9777,
+   "engagementBps": 7618,
+   "evidence": "2a87b59c8519b65a87b225a01c18d686a5cf74fd40b3f63431bf064f3c0db817"
+  },
+  {
+   "sid": 1539,
+   "programme": 1,
+   "riskBps": 9937,
+   "engagementBps": 5281,
+   "evidence": "18ba5860a33146f20650ebcfd7f0ccea59731d8d625f541cc80e76bb27edd52e"
+  },
+  {
+   "sid": 2094,
+   "programme": 1,
+   "riskBps": 7906,
+   "engagementBps": 6855,
+   "evidence": "b79f800a77b17e003c798c932c03287f78511491520472b01f6779d3554c1f7e"
+  },
+  {
+   "sid": 1204,
+   "programme": 1,
+   "riskBps": 9909,
+   "engagementBps": 5569,
+   "evidence": "f5245f017b70bde07a1f52ccf929b2114225f67d8513740ae83228656807319f"
+  },
+  {
+   "sid": 842,
+   "programme": 2,
+   "riskBps": 9926,
+   "engagementBps": 5344,
+   "evidence": "8dba3ca170274ed2af6905d618b9a27e4728b40a99b3a760f56e164b3763b08e"
+  },
+  {
+   "sid": 1510,
+   "programme": 1,
+   "riskBps": 9899,
+   "engagementBps": 6676,
+   "evidence": "4f2b42e6d3e8e980d3d4f0493ef7d3ed6373fbd201dacca55314a8c40f61e47e"
+  },
+  {
+   "sid": 2021,
+   "programme": 1,
+   "riskBps": 9985,
+   "engagementBps": 4368,
+   "evidence": "908245514db3ccca6e969731057440f63aa96b734ebf4a49b0a7d1b17c80b595"
+  },
+  {
+   "sid": 1766,
+   "programme": 2,
+   "riskBps": 9864,
+   "engagementBps": 4644,
+   "evidence": "6f37ac79be07691b88e34fbb63e85a1a18e2236dc29b642e287918dc07d7f236"
+  },
+  {
+   "sid": 1629,
+   "programme": 2,
+   "riskBps": 9630,
+   "engagementBps": 6539,
+   "evidence": "ed5a7e0dea7a315fdddd0c5420215473a71363a57669f134d12be21ad66d402d"
+  },
+  {
+   "sid": 2227,
+   "programme": 2,
+   "riskBps": 9245,
+   "engagementBps": 6538,
+   "evidence": "0336ef1af20033db866cd3fccdb682444bca500eadbec3f625d004eb0b84f610"
+  },
+  {
+   "sid": 2549,
+   "programme": 2,
+   "riskBps": 9705,
+   "engagementBps": 4832,
+   "evidence": "d73d9ef115e6ff162cddc0d3c89ec5f5a71f38777af0e6bcb9743e47d3fdd0d8"
+  },
+  {
+   "sid": 1856,
+   "programme": 2,
+   "riskBps": 8570,
+   "engagementBps": 6523,
+   "evidence": "4024dff7e87a9db10c3cf8b6f20f2ea43d64f3e8764c21894b184311d5456a89"
+  },
+  {
+   "sid": 3055,
+   "programme": 1,
+   "riskBps": 7518,
+   "engagementBps": 5357,
+   "evidence": "21aa5848bae596e06b8e9f53c7b8f034b24fe977519cd565ed13b044974fe2b4"
+  },
+  {
+   "sid": 1799,
+   "programme": 2,
+   "riskBps": 9817,
+   "engagementBps": 7352,
+   "evidence": "feb44e5479fcd5722ba13f3e30e71b1503c7030a23c12ee63d3fe9c4fae88c8a"
+  },
+  {
+   "sid": 3340,
+   "programme": 1,
+   "riskBps": 9943,
+   "engagementBps": 7037,
+   "evidence": "4dfc19cf83c75d0da29118a46a5e0ed9012db0b28c7c2d7d667e823b7d1341be"
+  },
+  {
+   "sid": 972,
+   "programme": 1,
+   "riskBps": 9869,
+   "engagementBps": 5459,
+   "evidence": "e70197784d7ebd16a6379e4552efb92293a184a40f137e8270f64fa0e6bf027b"
+  },
+  {
+   "sid": 1747,
+   "programme": 1,
+   "riskBps": 9926,
+   "engagementBps": 6305,
+   "evidence": "b72224d75b586d222831f548880790b7cada98407185202bb5e10d74f8dca8bd"
+  },
+  {
+   "sid": 1493,
+   "programme": 1,
+   "riskBps": 6922,
+   "engagementBps": 4873,
+   "evidence": "568dd96141d30a77d94eaa9fbed78a9d5f7f095c9328f0779d5856332556c239"
+  },
+  {
+   "sid": 2789,
+   "programme": 2,
+   "riskBps": 9154,
+   "engagementBps": 4927,
+   "evidence": "698bf654d19015a54a843c9dc762f33602eaa7897f59ad1b727dc73fcfabb8a4"
+  },
+  {
+   "sid": 3526,
+   "programme": 2,
+   "riskBps": 9839,
+   "engagementBps": 9182,
+   "evidence": "8639b2e52ae82ea8798735c263bc9ca1d2fc45d028a5e48a1d72d9f5dd23a47f"
+  },
+  {
+   "sid": 1529,
+   "programme": 2,
+   "riskBps": 7089,
+   "engagementBps": 5788,
+   "evidence": "44cbc50d17aef3140775b094b2e809a6b6bb0e3da21d63bf812cb6e9c8bb3383"
+  },
+  {
+   "sid": 689,
+   "programme": 2,
+   "riskBps": 9937,
+   "engagementBps": 5161,
+   "evidence": "de03a5995b341e7d28ca4bd0c1b648c2ca2c730a7f472583791dce48b98cbb36"
+  },
+  {
+   "sid": 1127,
+   "programme": 2,
+   "riskBps": 9082,
+   "engagementBps": 5823,
+   "evidence": "37cddbb6c475b62d2bed2da6acffbae425948f991ebe610b2e591528af2dc171"
+  },
+  {
+   "sid": 4089,
+   "programme": 1,
+   "riskBps": 9919,
+   "engagementBps": 6347,
+   "evidence": "c40542039c8a4fbb7250d908f78dae2962ba20275731fb93cc8de9a8ea7c8565"
+  },
+  {
+   "sid": 1712,
+   "programme": 1,
+   "riskBps": 9498,
+   "engagementBps": 4201,
+   "evidence": "fed676a725bb20cd9b864bf5edf90f4e0cc0be6d462af4dbabed2c0d276ca780"
+  },
+  {
+   "sid": 810,
+   "programme": 2,
+   "riskBps": 9903,
+   "engagementBps": 3872,
+   "evidence": "937cf4efde39e66dbda2ae3ee3d94e6f8d77d3667ab16c7b8fb4e401ab38f959"
+  },
+  {
+   "sid": 4276,
+   "programme": 1,
+   "riskBps": 9324,
+   "engagementBps": 2733,
+   "evidence": "c4d6062aa8dc2c8bf19d9dfa8e3f721d4858a12720514c85ac386740fbe8537c"
+  },
+  {
+   "sid": 678,
+   "programme": 2,
+   "riskBps": 9490,
+   "engagementBps": 4318,
+   "evidence": "ddef99572503b4a34d5f6f719d2a124176973a5b2d30ca8efd90d06e6c1e9f4d"
+  },
+  {
+   "sid": 4208,
+   "programme": 1,
+   "riskBps": 6601,
+   "engagementBps": 6014,
+   "evidence": "f7f0e7339ff8b988e8b31ab1c9e37df2f77436c351110bcaa2f4839f77377027"
+  },
+  {
+   "sid": 2059,
+   "programme": 2,
+   "riskBps": 8856,
+   "engagementBps": 3132,
+   "evidence": "413046b32906db144518a980ef18e4b29e6de65851a4b524e01a27790fb59fda"
+  },
+  {
+   "sid": 1282,
+   "programme": 1,
+   "riskBps": 9749,
+   "engagementBps": 2710,
+   "evidence": "18a2622b53a391a38c0499e6fb540d360520d1f89e4643efea26ec548ac8aa8c"
+  },
+  {
+   "sid": 939,
+   "programme": 1,
+   "riskBps": 8844,
+   "engagementBps": 5793,
+   "evidence": "4a9a99f71506ecfb6a98e9e2daf6ec3e8b5f0fe1b9207cc406fd383d079231c3"
+  },
+  {
+   "sid": 89,
+   "programme": 2,
+   "riskBps": 8865,
+   "engagementBps": 7879,
+   "evidence": "3a54a4ca58fa697b9f7f7f151c7bc37c947136a4970324dc63604f9bc53ebe27"
+  },
+  {
+   "sid": 2440,
+   "programme": 1,
+   "riskBps": 9776,
+   "engagementBps": 6983,
+   "evidence": "ef9261f122a3ec87505dd66dfb2962887dfd946ffc6ca7bc17f298afe8bd3bdf"
+  },
+  {
+   "sid": 3074,
+   "programme": 1,
+   "riskBps": 9400,
+   "engagementBps": 3569,
+   "evidence": "b110a6f159d45a11d88722d4d6d68c9df7c02001c70e7005fee6b02b34948dfb"
+  },
+  {
+   "sid": 3262,
+   "programme": 2,
+   "riskBps": 9872,
+   "engagementBps": 4607,
+   "evidence": "5987747fe72df8683715437744b97d1da1539883a2bd05c64ad6b76c76ed83b8"
+  },
+  {
+   "sid": 2465,
+   "programme": 2,
+   "riskBps": 9577,
+   "engagementBps": 5977,
+   "evidence": "6852d78dfd54c3d5b202cd292ff7cc8571ad98b18715c1c5a9b79acca6f68126"
+  },
+  {
+   "sid": 2748,
+   "programme": 1,
+   "riskBps": 9976,
+   "engagementBps": 3830,
+   "evidence": "e2ee9817d354c5b9606717451d7cc65b2b07ff5f208ec895034150aadbf68a6f"
+  },
+  {
+   "sid": 2448,
+   "programme": 2,
+   "riskBps": 9905,
+   "engagementBps": 6629,
+   "evidence": "c5a363ecacb41bd07381784733de0cd52f3aab1939dabff1b20ae1f9f81fff8b"
+  },
+  {
+   "sid": 4326,
+   "programme": 2,
+   "riskBps": 9713,
+   "engagementBps": 5987,
+   "evidence": "00bcc1886caf0c052bd9113f16b8ba0697cd1f3a081e339371ff0635cad65048"
+  },
+  {
+   "sid": 807,
+   "programme": 1,
+   "riskBps": 6337,
+   "engagementBps": 6356,
+   "evidence": "e788a50b9938843ab398750aed0b28aca9cb3d9e579f5b5f80ab3157c4397cef"
+  },
+  {
+   "sid": 711,
+   "programme": 2,
+   "riskBps": 9930,
+   "engagementBps": 7418,
+   "evidence": "3d015250564dc497d225a74d12aa84ed95e8fc87596e951b3f167bca1be2ef0a"
+  },
+  {
+   "sid": 513,
+   "programme": 1,
+   "riskBps": 9949,
+   "engagementBps": 4187,
+   "evidence": "d1a2de69ffbfb54673e580918230c990f5c19a7c320157e61f9ffa024df2cb64"
+  },
+  {
+   "sid": 2085,
+   "programme": 1,
+   "riskBps": 9889,
+   "engagementBps": 5432,
+   "evidence": "b248ef80ef771b7b2e280b1570b1d36ab74c1582e897dc844b0be4ec0cc219a2"
+  },
+  {
+   "sid": 1878,
+   "programme": 2,
+   "riskBps": 8795,
+   "engagementBps": 5609,
+   "evidence": "4f8e0bda0ffa633cb4b0ddabe6f74d8209eef726660c2f801a827ae799b54fdc"
+  },
+  {
+   "sid": 1568,
+   "programme": 2,
+   "riskBps": 8580,
+   "engagementBps": 4798,
+   "evidence": "01aebf56d334934871ea82d097f3039b6e7322c056c1384fb9cb2510aef44b10"
+  },
+  {
+   "sid": 4008,
+   "programme": 1,
+   "riskBps": 9863,
+   "engagementBps": 5212,
+   "evidence": "00bc4cb279291ea7d164fab09d1f7d5b4583c26973eb08c09ef726f1b1e98e58"
+  },
+  {
+   "sid": 255,
+   "programme": 2,
+   "riskBps": 9033,
+   "engagementBps": 7497,
+   "evidence": "daf4dfafc18fbd469c396e234d657c1a81035e1f2608d30df06a3239aa5b420b"
+  },
+  {
+   "sid": 644,
+   "programme": 2,
+   "riskBps": 9861,
+   "engagementBps": 7937,
+   "evidence": "3966c7d2ce9a4b8cfa96ef286e03773f230ed64ebe6f31ad4b06cbc1283fd060"
+  },
+  {
+   "sid": 730,
+   "programme": 2,
+   "riskBps": 9525,
+   "engagementBps": 7771,
+   "evidence": "416fe858b6621d4ef0604af0cb7ffe3985734934b0ed960220d7fd2b006449bc"
+  },
+  {
+   "sid": 4261,
+   "programme": 1,
+   "riskBps": 9558,
+   "engagementBps": 2672,
+   "evidence": "ff3f92dd64dd42e746d2750da7cc99cc7c2814dc8ec197f02e893f75e612399c"
+  },
+  {
+   "sid": 3487,
+   "programme": 1,
+   "riskBps": 9915,
+   "engagementBps": 6720,
+   "evidence": "9172ebc5a4d3e8efddb819baa8395d7547b56125ff397d05b532e20eae3ae7f2"
+  },
+  {
+   "sid": 1337,
+   "programme": 1,
+   "riskBps": 6253,
+   "engagementBps": 2177,
+   "evidence": "6cdb0bc9305d0bdfe7446448e5395dbd5c20bd51fd3a9eb2d662be8cd41b52ef"
+  },
+  {
+   "sid": 277,
+   "programme": 2,
+   "riskBps": 9767,
+   "engagementBps": 5267,
+   "evidence": "fe025a42bea6ce7b9f2f1de474049961929b008414d69c3f258a2fb7ea234302"
+  },
+  {
+   "sid": 2004,
+   "programme": 1,
+   "riskBps": 9968,
+   "engagementBps": 5082,
+   "evidence": "867d481c6d932b6c6ccce9a72fe760e7b84ea4dc1d3436ad81b4d40bd6fb8130"
+  },
+  {
+   "sid": 2711,
+   "programme": 1,
+   "riskBps": 9899,
+   "engagementBps": 5864,
+   "evidence": "92e894f44823f77bc0c6177fb7f51edc996d2b9e7fd6739f63d4d4b49bc94cf5"
+  },
+  {
+   "sid": 393,
+   "programme": 1,
+   "riskBps": 9417,
+   "engagementBps": 7559,
+   "evidence": "dcc674b2d0365bf4d1925cf3515a2b0ad2034f4c608846e7d3d0a646513dfe2a"
+  },
+  {
+   "sid": 1850,
+   "programme": 1,
+   "riskBps": 9972,
+   "engagementBps": 8223,
+   "evidence": "788573f404a3bc0ab68b30accb482ae0ce3c607f3700446b1fa4a9c4b739f1f4"
+  },
+  {
+   "sid": 3904,
+   "programme": 1,
+   "riskBps": 9802,
+   "engagementBps": 8759,
+   "evidence": "277e1d655d6838e5f3e61ef0cc9afb8d5adf0c1ee346e28c0cb7b2ff83db1579"
+  },
+  {
+   "sid": 3873,
+   "programme": 1,
+   "riskBps": 8754,
+   "engagementBps": 2322,
+   "evidence": "c1845aec97d423dc61bf495d58f36e838f67cd525ff64db2548ba4eb13d1ddcc"
+  },
+  {
+   "sid": 1897,
+   "programme": 2,
+   "riskBps": 8007,
+   "engagementBps": 4789,
+   "evidence": "4444679a19480fce5a4b344c9302f6129cfcb8c2169e92dc2cf82d57b5fc9042"
+  },
+  {
+   "sid": 3102,
+   "programme": 1,
+   "riskBps": 9927,
+   "engagementBps": 6108,
+   "evidence": "774b1579dc77b7fc1895ebaabd3edcfe617182fe12f3e8a6513a16bd876fa4dc"
+  },
+  {
+   "sid": 4387,
+   "programme": 1,
+   "riskBps": 8163,
+   "engagementBps": 7564,
+   "evidence": "821d1ede62fc3d06a39d820a39546a11bbc66589addf6922efe9ec1700c14521"
+  },
+  {
+   "sid": 3205,
+   "programme": 1,
+   "riskBps": 9941,
+   "engagementBps": 6139,
+   "evidence": "863316f817001d09dcff5c3febd4207e6368ae6f822c5c11c9f09a3f77e00743"
+  },
+  {
+   "sid": 3577,
+   "programme": 2,
+   "riskBps": 9468,
+   "engagementBps": 3940,
+   "evidence": "437b9b92dff95d76253867dc57fa15b2f362b5f8e95853362cb044105ff1256a"
+  },
+  {
+   "sid": 1386,
+   "programme": 1,
+   "riskBps": 9943,
+   "engagementBps": 7898,
+   "evidence": "33fcadc4313862e45254c40440c601fd2e0e205064f4577390e97c92f9c37500"
+  },
+  {
+   "sid": 1886,
+   "programme": 1,
+   "riskBps": 9749,
+   "engagementBps": 4861,
+   "evidence": "39bac20d6a06218fed7d26253b2de85f9e2c49b212b6dfb0ff42935ab8e17db8"
+  },
+  {
+   "sid": 3365,
+   "programme": 1,
+   "riskBps": 9486,
+   "engagementBps": 2994,
+   "evidence": "e9f2341c5d46fd281910282daf852fd39dd671084b93866a22feb43cca94d0d1"
+  },
+  {
+   "sid": 1135,
+   "programme": 1,
+   "riskBps": 9812,
+   "engagementBps": 2260,
+   "evidence": "882bdbc8f3186d3021201d11f7a7d5a3b2daae5ca006cdd62a1d0478cd61724c"
+  },
+  {
+   "sid": 1860,
+   "programme": 2,
+   "riskBps": 9378,
+   "engagementBps": 7099,
+   "evidence": "238b79240e64444bda1e1278bca575389c3a20cf344bcf70f0af9408feddb017"
+  },
+  {
+   "sid": 1717,
+   "programme": 1,
+   "riskBps": 9409,
+   "engagementBps": 6571,
+   "evidence": "1ac7a7f83d65e0ddd941bd46c12afaac131407ac44a866cfe5b1e8effa09dc75"
+  },
+  {
+   "sid": 923,
+   "programme": 1,
+   "riskBps": 9616,
+   "engagementBps": 2206,
+   "evidence": "afd9e40a4c046f799d39bba81e8176a0b7633bb353493f4ac8fb367e32d13336"
+  },
+  {
+   "sid": 2750,
+   "programme": 1,
+   "riskBps": 9795,
+   "engagementBps": 8250,
+   "evidence": "7c7f42deb3a8098bb6d39adfc9a684149608c75f77568537eab09ed20d452347"
+  },
+  {
+   "sid": 3496,
+   "programme": 1,
+   "riskBps": 9847,
+   "engagementBps": 6026,
+   "evidence": "809bd83df6790284c3434c3f85dc1107574a08981d75e7f5a37c63fe378ed1fb"
+  },
+  {
+   "sid": 1625,
+   "programme": 1,
+   "riskBps": 9964,
+   "engagementBps": 7449,
+   "evidence": "3a882ac0250afbd3b23638682e73ae0294c4db0dab5e9b03a699bcc14fe68523"
+  },
+  {
+   "sid": 2127,
+   "programme": 1,
+   "riskBps": 9130,
+   "engagementBps": 6781,
+   "evidence": "c7ec52ebe1e6d6804700a4a42d38c4070432bf0ffd6ae97fb96a5608df494ec5"
+  },
+  {
+   "sid": 2159,
+   "programme": 1,
+   "riskBps": 8408,
+   "engagementBps": 5236,
+   "evidence": "f607f67a110401c401defa8068eff37347f26acd00d0a16d9fbb8dbd4a2d089e"
+  },
+  {
+   "sid": 2553,
+   "programme": 2,
+   "riskBps": 9786,
+   "engagementBps": 5058,
+   "evidence": "21a56961de908608cf70dd677f4e39e179228d62d89c9a39be9ddcda7b47022b"
+  },
+  {
+   "sid": 4415,
+   "programme": 2,
+   "riskBps": 9600,
+   "engagementBps": 5652,
+   "evidence": "8be2f4d3e5860a3c670f0b1d50226ac551e7c72e6f80770fe8b729b8c629685b"
+  },
+  {
+   "sid": 3065,
+   "programme": 2,
+   "riskBps": 9887,
+   "engagementBps": 4154,
+   "evidence": "a15100331177de8d9c875c4e50f9c36b9168e482f0024537b60622f3ece89f9f"
+  },
+  {
+   "sid": 1416,
+   "programme": 1,
+   "riskBps": 9957,
+   "engagementBps": 7507,
+   "evidence": "a501cf4746ecd5058f0e36a9f12c316cb1ccc5a4f72815661b2a5a278ccc9061"
+  },
+  {
+   "sid": 3369,
+   "programme": 2,
+   "riskBps": 7264,
+   "engagementBps": 4327,
+   "evidence": "5994d3cde204e2019716145938a934b3a29115cbe774184c7da82cf56aa1b0c4"
+  },
+  {
+   "sid": 1317,
+   "programme": 1,
+   "riskBps": 9813,
+   "engagementBps": 4718,
+   "evidence": "222f62ccecce71df1ff00b71fcc4cb19a29ce4e79ea672f49fe84356e4650f6a"
+  },
+  {
+   "sid": 247,
+   "programme": 2,
+   "riskBps": 9817,
+   "engagementBps": 7288,
+   "evidence": "7ce32f22b1a8b192fa7972d1a7e9467a3f93a3cce95c8c918d629e5cd8758ee8"
+  },
+  {
+   "sid": 3637,
+   "programme": 2,
+   "riskBps": 8400,
+   "engagementBps": 6361,
+   "evidence": "20e1003d64e91138a1906afab692a40b8653306e1a433ac91772cf532a121084"
+  },
+  {
+   "sid": 2402,
+   "programme": 1,
+   "riskBps": 8923,
+   "engagementBps": 3467,
+   "evidence": "6eb81ada3915ab733db5d805eb65c56c393dd379404c2d1854001320ec3c6c0a"
+  },
+  {
+   "sid": 2270,
+   "programme": 1,
+   "riskBps": 9906,
+   "engagementBps": 5676,
+   "evidence": "46a97ca70837012fd886afc43b9a0462aedc9e47adec696c84549db14ecd3936"
+  },
+  {
+   "sid": 3252,
+   "programme": 1,
+   "riskBps": 7405,
+   "engagementBps": 6021,
+   "evidence": "dcac0036dd928343014f8bc2abcc87911c583241a0c0d3a692c5be074568b9ea"
+  },
+  {
+   "sid": 4288,
+   "programme": 2,
+   "riskBps": 9817,
+   "engagementBps": 7926,
+   "evidence": "d89c8f7753119ba4ca33ef944e7c13a1e36d26e39ac0c2778097a0e951519914"
+  },
+  {
+   "sid": 2935,
+   "programme": 2,
+   "riskBps": 9600,
+   "engagementBps": 9369,
+   "evidence": "c96279a1cdbca3894c8bfa97ef354f64a3552995bb772dbb191f853e11d0bc72"
+  },
+  {
+   "sid": 2485,
+   "programme": 1,
+   "riskBps": 9954,
+   "engagementBps": 6087,
+   "evidence": "82d8563bb1bce93d36d31b1be5e67350f948c6c6ac66febf9621451403b89903"
+  },
+  {
+   "sid": 1381,
+   "programme": 1,
+   "riskBps": 9987,
+   "engagementBps": 2073,
+   "evidence": "2142cb599f99930eacd40bcbe10744a68ce12387c4a3869faa4c6babaf12d35f"
+  },
+  {
+   "sid": 1638,
+   "programme": 2,
+   "riskBps": 9745,
+   "engagementBps": 8274,
+   "evidence": "93be3ab0a2900010c69d6737d10ccb8a292c3ceffb56d5e755056037c9b31db7"
+  },
+  {
+   "sid": 3341,
+   "programme": 2,
+   "riskBps": 9556,
+   "engagementBps": 5891,
+   "evidence": "ed821c3efe76ca96a72ffbd4fca900cefe64f6110a785e741e3659e409fb2fc9"
+  },
+  {
+   "sid": 1763,
+   "programme": 1,
+   "riskBps": 6780,
+   "engagementBps": 3970,
+   "evidence": "ba6c7409938fb77614b2880aad9f1d90d035c1cf2c4e1d346daace6b3f7ee02f"
+  }
+ ],
+ "summary": {
+  "cohort": 885,
+  "tiers": {
+   "low": 625,
+   "high": 233,
+   "medium": 27
+  },
+  "plans": 260,
+  "interventions": 445,
+  "by_kind": {
+   "TutoringReferral": 225,
+   "FinancialCounselling": 121,
+   "AdvisorAlert": 88,
+   "PeerMentoring": 11
+  },
+  "aid_requests": 128,
+  "aid_by_programme": {
+   "1": 71,
+   "2": 57
+  },
+  "eligible_by_engagement_prog1": 44,
+  "true_dropouts_in_high": 200,
+  "n_high": 233,
+  "true_dropouts_in_medium": 14,
+  "n_medium": 27,
+  "dropouts_total": 284,
+  "orchestration_ms": 26.634560024831444,
+  "thresholds": {
+   "high": 0.7,
+   "medium": 0.585
+  }
+ }
+}

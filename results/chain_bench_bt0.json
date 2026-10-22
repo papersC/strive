@@ -1,0 +1,190 @@
+{
+ "blocktime_ms": 0,
+ "deploy": {
+  "MockStableToken": 512862,
+  "SupportFundVault": 1955653,
+  "InterventionRegistry": 1129396
+ },
+ "latency": {
+  "requestAward_auto": {
+   "n": 100,
+   "mean": 5.86493572,
+   "sd": 1.18335209095912,
+   "p50": 5.712857,
+   "p95": 8.223736,
+   "min": 3.815335,
+   "max": 11.377693
+  },
+  "requestAward_pending": {
+   "n": 100,
+   "mean": 5.615102170000001,
+   "sd": 1.1339713029214105,
+   "p50": 5.491859,
+   "p95": 7.522646,
+   "min": 3.613587,
+   "max": 10.001518
+  },
+  "approve_final": {
+   "n": 100,
+   "mean": 5.00485543,
+   "sd": 1.1147072186581217,
+   "p50": 4.76527,
+   "p95": 6.994142,
+   "min": 3.17998,
+   "max": 9.67196
+  },
+  "logIntervention": {
+   "n": 100,
+   "mean": 5.327832420000001,
+   "sd": 1.263190607934259,
+   "p50": 4.981195,
+   "p95": 7.651232,
+   "min": 3.518624,
+   "max": 10.82
+  }
+ },
+ "batch": {
+  "1": {
+   "gas": 130575,
+   "gas_per_record": 130575,
+   "ms": 4.460001
+  },
+  "10": {
+   "gas": 1002678,
+   "gas_per_record": 100267.8,
+   "ms": 8.650124
+  },
+  "25": {
+   "gas": 2456281,
+   "gas_per_record": 98251.24,
+   "ms": 12.83014
+  },
+  "50": {
+   "gas": 4879001,
+   "gas_per_record": 97580.02,
+   "ms": 25.649497
+  },
+  "100": {
+   "gas": 9725168,
+   "gas_per_record": 97251.68,
+   "ms": 38.82507
+  }
+ },
+ "scenario": {
+  "students_registered": 128,
+  "interventions_logged": 445,
+  "intervention_batches": 9,
+  "intervention_gas": 43425456,
+  "aid_requests": 128,
+  "accepted_onchain": 101,
+  "rejected_onchain_by_rule": {
+   "engagement rule": 27
+  },
+  "pending_requiring_approval": 57,
+  "award_gas": 17446219,
+  "approval_gas": 8502477,
+  "total_gas": 75599272,
+  "wall_s": 2.143111473
+ },
+ "ops_summary": {
+  "deposit": {
+   "n": 1,
+   "mean": 61525,
+   "sd": 0,
+   "p50": 61525,
+   "p95": 61525,
+   "min": 61525,
+   "max": 61525
+  },
+  "createProgramme": {
+   "n": 2,
+   "mean": 133969,
+   "sd": 8580,
+   "p50": 125389,
+   "p95": 125389,
+   "min": 125389,
+   "max": 142549
+  },
+  "registerStudent": {
+   "n": 100,
+   "mean": 48633.72,
+   "sd": 5.284089325512964,
+   "p50": 48636,
+   "p95": 48636,
+   "min": 48612,
+   "max": 48636
+  },
+  "requestAward_autoDisburse": {
+   "n": 100,
+   "mean": 186140,
+   "sd": 6719.236322678345,
+   "p50": 183407,
+   "p95": 200507,
+   "min": 183383,
+   "max": 217595
+  },
+  "requestAward_pending": {
+   "n": 100,
+   "mean": 164476.6,
+   "sd": 5.628498911788113,
+   "p50": 164479,
+   "p95": 164479,
+   "min": 164455,
+   "max": 164479
+  },
+  "approve_first": {
+   "n": 100,
+   "mean": 63125,
+   "sd": 0,
+   "p50": 63125,
+   "p95": 63125,
+   "min": 63125,
+   "max": 63125
+  },
+  "approve_final_disburse": {
+   "n": 100,
+   "mean": 86032,
+   "sd": 0,
+   "p50": 86032,
+   "p95": 86032,
+   "min": 86032,
+   "max": 86032
+  },
+  "logIntervention": {
+   "n": 100,
+   "mean": 128054.76,
+   "sd": 1701.7649962318478,
+   "p50": 127887,
+   "p95": 127887,
+   "min": 127863,
+   "max": 144987
+  },
+  "updateStatus": {
+   "n": 100,
+   "mean": 59004.32,
+   "sd": 4.16384437749539,
+   "p50": 59006,
+   "p95": 59006,
+   "min": 58994,
+   "max": 59006
+  },
+  "reject": {
+   "n": 1,
+   "mean": 44568,
+   "sd": 0,
+   "p50": 44568,
+   "p95": 44568,
+   "min": 44568,
+   "max": 44568
+  },
+  "anchorRiskSnapshot": {
+   "n": 1,
+   "mean": 117984,
+   "sd": 0,
+   "p50": 117984,
+   "p95": 117984,
+   "min": 117984,
+   "max": 117984
+  }
+ }
+}

@@ -1,0 +1,16 @@
+INFO:Detectors:
+Detector: timestamp
+InterventionRegistry.updateStatus(uint256,InterventionRegistry.Status,bytes32) (contracts/InterventionRegistry.sol#64-71) uses timestamp for comparisons
+	Dangerous comparisons:
+	- require(bool,string)(it.status != Status.Completed && it.status != Status.Declined,closed) (contracts/InterventionRegistry.sol#67)
+SupportFundVault.requestAward(uint32,bytes32,uint16,uint16,bytes32) (contracts/SupportFundVault.sol#98-120) uses timestamp for comparisons
+	Dangerous comparisons:
+	- last != 0 && block.timestamp < last + p.cooldown (contracts/SupportFundVault.sol#107)
+SupportFundVault.approve(uint256) (contracts/SupportFundVault.sol#123-131) uses timestamp for comparisons
+	Dangerous comparisons:
+	- require(bool,string)(r.state == ReqState.Pending,not pending) (contracts/SupportFundVault.sol#125)
+SupportFundVault.reject(uint256,bytes32) (contracts/SupportFundVault.sol#132-139) uses timestamp for comparisons
+	Dangerous comparisons:
+	- require(bool,string)(r.state == ReqState.Pending,not pending) (contracts/SupportFundVault.sol#134)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#block-timestamp
+INFO:Slither:. analyzed (28 contracts with 102 detectors), 4 result(s) found

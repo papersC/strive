@@ -1,0 +1,25 @@
+
+
+  SupportFundVault security properties
+    ✔ S1 only the agent role can request awards (2441ms)
+    ✔ S2 on-chain rule enforcement: risk and engagement thresholds (184ms)
+    ✔ S3 unregistered pseudonym rejected (142ms)
+    ✔ S4 auto-approved award disbursed to registered wallet with event trail (156ms)
+    ✔ S5 cooldown prevents duplicate/rapid awards (141ms)
+    ✔ S6 per-student cap enforced across cooldown windows (153ms)
+    ✔ S7 M-of-N approval: large award pending until 2 distinct approvers (140ms)
+    ✔ S8 programme budget cannot be exceeded (150ms)
+    ✔ S9 rejection releases reserved budget (139ms)
+    ✔ S10 emergency pause halts agent requests (104ms)
+    ✔ S11 only the student's wallet can file an appeal (156ms)
+    ✔ S12 re-entrancy during token transfer is blocked (152ms)
+    ✔ S13 policy admin cannot shrink budget below committed funds (131ms)
+
+  InterventionRegistry security properties
+    ✔ R1 only the agent can log interventions and anchor snapshots (81ms)
+    ✔ R2 agent cannot close interventions; only advisors record outcomes (84ms)
+    ✔ R3 malformed risk scores rejected (56ms)
+
+
+  16 passing (4s)
+
