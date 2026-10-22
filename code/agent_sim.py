@@ -3,7 +3,7 @@ Produces agent decisions consumed by the on-chain benchmark (contracts/scripts/b
 NOTE: student engagement with interventions is NOT in the dataset and is SIMULATED (Beta(4,3), seed 7)."""
 import json, hashlib, numpy as np, pandas as pd, time
 from dataclasses import dataclass, asdict
-R="/workspace/papers/paper5/results/"
+R="../results/"
 H=json.load(open(R+"holdout_T1.json"))
 T_HIGH=0.70; T_MED=H["operating_points_XGB_T1"]["maxF1_oof"]["threshold"]   # medium tier = max-F1 threshold from OOF
 ADVISOR_CAPACITY=0.10   # advisors can contact at most 10% of the cohort per cycle

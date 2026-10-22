@@ -3,7 +3,7 @@
 const { ethers, network } = require("hardhat");
 const fs = require("fs");
 const id = (s) => ethers.keccak256(ethers.toUtf8Bytes(s));
-const OUT = "/workspace/papers/paper5/results/";
+const OUT = "../results/";
 const BT = parseInt(process.env.BLOCKTIME || "0");
 async function timed(fn) { const t = process.hrtime.bigint(); const tx = await fn(); const rc = await tx.wait(); return { gas: rc.gasUsed, ms: Number(process.hrtime.bigint() - t) / 1e6, rc }; }
 const stats = (a) => { const s=[...a].sort((x,y)=>x-y); const m=a.reduce((x,y)=>x+y,0)/a.length; const sd=Math.sqrt(a.reduce((x,y)=>x+(y-m)**2,0)/a.length);

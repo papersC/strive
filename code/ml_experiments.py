@@ -17,8 +17,8 @@ from sklearn.inspection import permutation_importance
 from xgboost import XGBClassifier
 warnings.filterwarnings("ignore")
 SEED = 42
-R = "/workspace/papers/paper5/results/"
-d = pd.read_csv("/workspace/papers/paper5/data/data.csv", sep=";")
+R = "../results/"
+d = pd.read_csv("../data/data.csv", sep=";")
 d.columns = [c.strip() for c in d.columns]
 d["y"] = (d["Target"] == "Dropout").astype(int)
 

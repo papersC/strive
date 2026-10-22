@@ -1,6 +1,6 @@
 import json, os, numpy as np, pandas as pd, matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-R="/workspace/papers/paper5/results/"; F="/workspace/papers/paper5/figures/"
+R="../results/"; F="../figures/"
 plt.rcParams.update({"font.size":10,"axes.spines.top":False,"axes.spines.right":False})
 cv=pd.read_csv(R+"cv_binary_stages.csv")
 # Fig3: AUC and F1 by stage

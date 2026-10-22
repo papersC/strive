@@ -1,7 +1,7 @@
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
-F="/workspace/papers/paper5/figures/"
+F="../figures/"
 def box(ax,x,y,w,h,txt,fc="white",ec="#333",fs=8.5,bold=False):
     ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.004,rounding_size=0.01",fc=fc,ec=ec,lw=1))
     ax.text(x+w/2,y+h/2,txt,ha="center",va="center",fontsize=fs,fontweight="bold" if bold else "normal")

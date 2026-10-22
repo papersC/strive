@@ -1,7 +1,7 @@
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
-F="/workspace/papers/paper5/figures/"
+F="../figures/"
 # ---------------- Figure 2: sequence diagram
 fig,ax=plt.subplots(figsize=(14,8.6)); ax.axis("off")
 actors=["LMS/SIS","Monitor\nAgent","Risk Analyst\nAgent","Planner\nAgent","Advisor\n(human)","Aid Coord.\nAgent","Intervention\nRegistry","SupportFund\nVault","Committee\n(M-of-N)","Student"]
